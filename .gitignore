@@ -1,4 +1,2 @@
 .DS_Store
-bin/a.out
-bin/#input.txt
-bin/#output.txt
+/bin/*
