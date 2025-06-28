@@ -1,0 +1,93 @@
+{
+    "sample cpp code": {
+        "prefix": "sample",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "$0",
+            "int main() {",
+            "    $1",
+            "    return 0;",
+            "}"
+        ],
+        "description": "sample cpp code"
+    },
+    "Test Case": {
+        "prefix": "ts",
+        "body": [
+            "int t;",
+            "cin >> t;",
+            "while (t--) {",
+            "}"
+        ],
+        "description": "run test cases"
+    },
+    "Fast I/O": {
+        "prefix": "fastio",
+        "body": [
+            "ios_base::sync_with_stdio(false);",
+            "cin.tie(nullptr);",
+            "cout.tie(nullptr);"
+        ],
+        "description": "Fast I/O optimization"
+    },
+    "Vector Input": {
+        "prefix": "vecin",
+        "body": [
+            "vector<int> v(n);",
+            "for(int i = 0; i < n; i++) {",
+            "    cin >> v[i];",
+            "}"
+        ],
+        "description": "Input vector elements"
+    },
+    "Binary Search": {
+        "prefix": "bsearch",
+        "body": [
+            "int left = 0, right = n-1;",
+            "while(left <= right) {",
+            "    int mid = left + (right - left) / 2;",
+            "    if(condition) {",
+            "        left = mid + 1;",
+            "    } else {",
+            "        right = mid - 1;",
+            "    }",
+            "}"
+        ],
+        "description": "Binary search template"
+    },
+    "DFS Template": {
+        "prefix": "dfs",
+        "body": [
+            "void dfs(int node, vector<bool>& visited) {",
+            "    visited[node] = true;",
+            "    for(int neighbor : adj[node]) {",
+            "        if(!visited[neighbor]) {",
+            "            dfs(neighbor, visited);",
+            "        }",
+            "    }",
+            "}"
+        ],
+        "description": "DFS template"
+    },
+    "BFS Template": {
+        "prefix": "bfs",
+        "body": [
+            "queue<int> q;",
+            "vector<bool> visited(n, false);",
+            "q.push(start);",
+            "visited[start] = true;",
+            "while(!q.empty()) {",
+            "    int node = q.front();",
+            "    q.pop();",
+            "    for(int neighbor : adj[node]) {",
+            "        if(!visited[neighbor]) {",
+            "            visited[neighbor] = true;",
+            "            q.push(neighbor);",
+            "        }",
+            "    }",
+            "}"
+        ],
+        "description": "BFS template"
+    }
+}
