@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "Menlo",
+    "editor.fontSize": 15,
+    "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-15",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c23",
+}
