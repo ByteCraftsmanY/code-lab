@@ -1,6 +1,6 @@
 {
     "sample cpp code": {
-        "prefix": "sample",
+        "prefix": "smp",
         "body": [
             "#include <bits/stdc++.h>",
             "using namespace std;",
