@@ -1,0 +1,26 @@
+Striver’s CP Sheet
+    Striver’s CP Sheet (Solely for preparing for Coding Rounds of Top Product Based Companies and to do well in Coding Sites and Competitions)
+
+
+Read before starting
+    All of the below questions have been answered in this video
+
+    What does the CP Sheet primarily focus on ?
+        1. How have the problems been selected ?
+        2. How many problems do you need to do in order to get concepts required for coding rounds ?
+        3. What apart from the CP list do we need to do?
+        4. Pre-requisites: Point 1 and Point 2
+
+    1. Before starting off CP, make sure you know one language, which means you how to take an input, print something, run for loops, snd STL/Collection for the language you are using, these things are more than enough to start, just don’t think you need everything in place to start, so just start.
+
+    2. At first make sure your constructive algorithms are good, which means you can solve simple story line problems. For that my suggestion will be to do A2OJ ladder 50 A problems and 50 B level problems to start off with.
+
+    3. Next I will be giving you the algorithms name you need to know and 5-10 problems on each of them. These problems will help you to understand the concept of the algorithm, and will help you to understand how we can tweak the algorithms to solve given problems. Even after this you don’t feel comfortable with the Algorithm, my suggestion will be to google some more problems and solve. To reach an expert level at Codeforces, you just need to solve A, B and C problems at quick succession and on a constant basis. There are very few chances that you will be encountering an algorithmic problem on Codeforces unless and until its the D level problem or beyond. So you need to do as many algorithmic problems as you can, which will help you during your coding rounds.
+
+
+Note
+    The Algorithmic Problems might require a mixture of Algorithms in order to be solved, so be careful while you think, just don’t think on a particular algo only.
+
+Disclaimer: 
+    If you feel it’s getting tough, I will suggest doing SDE sheet as well as you can, and taking the concepts as properly as you can!!
+

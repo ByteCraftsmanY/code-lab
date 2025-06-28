@@ -1,0 +1,7 @@
+Most asked Operating System Interview Questions
+    Operating System (OS) is basically a software program that manages and handles all resources of a computer such as hardware and software. The first OS was introduced in the early 1950s known as GMOs. An OS is responsible for managing, handling, and coordinating overall activities and sharing of computer resources. It acts as an intermediary among users of computer and computer hardware.
+
+    Special thanks to Riti Kumari for helping us curating the sheets and the videos. You can subscribe to her Youtube Channel, she keeps posting amazing content.
+
+    We will be adding descriptive blogs very very soon to all the topics, please bookmark this as of now.
+

@@ -1,0 +1,7 @@
+Most Asked DBMS Interview Questions
+    Explore essential DBMS interview questions curated to help you ace your next interview effortlessly. Gain valuable insights and boost your confidence with our carefully selected questions tailored for success in database management. Dive in now and excel in your DBMS journey.
+
+    Special thanks to Riti Kumari (https://www.linkedin.com/in/riti2409/) for helping us curating the sheets and the videos. You can subscribe to her Youtube Channel (https://www.youtube.com/@RitiKumari), she keeps posting amazing content.
+
+    We will be adding descriptive blogs very very soon to all the topics, please bookmark this as of now.
+

@@ -1,0 +1,14 @@
+Strivers 79 Last Moment DSA Sheet – Ace Interviews
+    The Striver’s 79 Sheet contains very handily crafted and picked top coding interview questions from different topics of Data Structures & Algorithms. These questions are one of the most asked coding interview questions in coding interviews of companies like Google, Amazon, Microsoft, Facebook, Swiggy, Flipkart, etc, and cover almost all of the concepts related to Data Structure & Algorithms.
+
+
+Key Highlights
+    1. Revise all concepts in limited time that are needed for a DSA interview.
+    2. In-depth video solutions covering brute, better, optimal solutions.
+    3. Well structured articles/notes for quick revision.
+    4. C++, Java, Python and JavaScript code.
+    5. Company Tags associated with each program.
+    6. Notes section to save your notes for quick revision.
+
+Disclaimer: 
+    The questions are hard, so we expect you to be well versed with DSA, if you are not, please try A2Z-Sheet or SDE-Sheet

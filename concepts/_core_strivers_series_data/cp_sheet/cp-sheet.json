@@ -1,0 +1,1906 @@
+{
+    "sheetData": [
+        {
+            "step_no": 1,
+            "topic": "Implementation / Constructive",
+            "data": [
+                {
+                    "id": "Bit++",
+                    "sl_no_in_step": 1,
+                    "title": "Bit++",
+                    "cf_link": "https://codeforces.com/problemset/problem/282/A"
+                },
+                {
+                    "id": "Chewbaсca-and-Number",
+                    "sl_no_in_step": 2,
+                    "title": "Chewbaсca and Number",
+                    "cf_link": "https://codeforces.com/contest/514/problem/A"
+                },
+                {
+                    "id": "Beautiful-Matrix",
+                    "sl_no_in_step": 3,
+                    "title": "Beautiful Matrix",
+                    "cf_link": "https://codeforces.com/problemset/problem/263/A"
+                },
+                {
+                    "id": "Soft-Drinking",
+                    "sl_no_in_step": 4,
+                    "title": "Soft Drinking",
+                    "cf_link": "https://codeforces.com/problemset/problem/151/A"
+                },
+                {
+                    "id": "The-New-Year-Meeting-Friends",
+                    "sl_no_in_step": 5,
+                    "title": "The New Year: Meeting Friends",
+                    "cf_link": "https://codeforces.com/problemset/problem/723/A"
+                },
+                {
+                    "id": "Sum-of-Round-Numbers",
+                    "sl_no_in_step": 6,
+                    "title": "Sum of Round Numbers",
+                    "cf_link": "https://codeforces.com/problemset/problem/1352/A"
+                },
+                {
+                    "id": "Fox-And-Snake",
+                    "sl_no_in_step": 7,
+                    "title": "Fox And Snake",
+                    "cf_link": "https://codeforces.com/problemset/problem/510/A"
+                },
+                {
+                    "id": "Anton-and-Polyhedrons",
+                    "sl_no_in_step": 8,
+                    "title": "Anton and Polyhedrons",
+                    "cf_link": "https://codeforces.com/problemset/problem/785/A"
+                },
+                {
+                    "id": "Arrival-of-the-General",
+                    "sl_no_in_step": 9,
+                    "title": "Arrival of the General",
+                    "cf_link": "https://codeforces.com/problemset/problem/144/A"
+                },
+                {
+                    "id": "In Search-of-an-Easy-Problem",
+                    "sl_no_in_step": 10,
+                    "title": "In Search of an Easy Problem",
+                    "cf_link": "https://codeforces.com/problemset/problem/1030/A"
+                },
+                {
+                    "id": "Presents",
+                    "sl_no_in_step": 11,
+                    "title": "Presents",
+                    "cf_link": "https://codeforces.com/problemset/problem/136/A"
+                },
+                {
+                    "id": "Nearly-Lucky-Number",
+                    "sl_no_in_step": 12,
+                    "title": "Nearly Lucky Number",
+                    "cf_link": "https://codeforces.com/problemset/problem/110/A"
+                },
+                {
+                    "id": "Tram",
+                    "sl_no_in_step": 13,
+                    "title": "Tram",
+                    "cf_link": "https://codeforces.com/problemset/problem/116/A"
+                },
+                {
+                    "id": "Wrong-Subtraction",
+                    "sl_no_in_step": 14,
+                    "title": "Wrong Subtraction",
+                    "cf_link": "https://codeforces.com/problemset/problem/977/A"
+                },
+                {
+                    "id": "Soldier-and-Bananas",
+                    "sl_no_in_step": 15,
+                    "title": "Soldier and Bananas",
+                    "cf_link": "https://codeforces.com/problemset/problem/546/A"
+                },
+                {
+                    "id": "Bear-and-Big-Brother",
+                    "sl_no_in_step": 16,
+                    "title": "Bear and Big Brother",
+                    "cf_link": "https://codeforces.com/problemset/problem/791/A"
+                },
+                {
+                    "id": "Boy-or-Girl",
+                    "sl_no_in_step": 17,
+                    "title": "Boy or Girl",
+                    "cf_link": "https://codeforces.com/problemset/problem/236/A"
+                },
+                {
+                    "id": "Word-Capitalization",
+                    "sl_no_in_step": 18,
+                    "title": "Word Capitalization",
+                    "cf_link": "https://codeforces.com/problemset/problem/281/A"
+                },
+                {
+                    "id": "Helpful-Maths",
+                    "sl_no_in_step": 19,
+                    "title": "Helpful Maths",
+                    "cf_link": "https://codeforces.com/problemset/problem/339/A"
+                },
+                {
+                    "id": "C+=",
+                    "sl_no_in_step": 20,
+                    "title": "C+=",
+                    "cf_link": "https://codeforces.com/problemset/problem/1368/A"
+                },
+                {
+                    "id": "Maximum-Increase",
+                    "sl_no_in_step": 21,
+                    "title": "Maximum Increase",
+                    "cf_link": "https://codeforces.com/problemset/problem/702/A"
+                },
+                {
+                    "id": "Gennady-and-a-Card-Game",
+                    "sl_no_in_step": 22,
+                    "title": "Gennady and a Card Game",
+                    "cf_link": "https://codeforces.com/problemset/problem/1097/A"
+                },
+                {
+                    "id": "Vanya-and-Cubes",
+                    "sl_no_in_step": 23,
+                    "title": "Vanya and Cubes",
+                    "cf_link": "https://codeforces.com/problemset/problem/492/A"
+                },
+                {
+                    "id": "Boring-Apartments",
+                    "sl_no_in_step": 24,
+                    "title": "Boring Apartments",
+                    "cf_link": "https://codeforces.com/problemset/problem/1433/A"
+                },
+                {
+                    "id": "Erasing-Zeroes",
+                    "sl_no_in_step": 25,
+                    "title": "Erasing Zeroes",
+                    "cf_link": "https://codeforces.com/problemset/problem/1303/A"
+                },
+                {
+                    "id": "Repeating-Cipher",
+                    "sl_no_in_step": 26,
+                    "title": "Repeating Cipher",
+                    "cf_link": "https://codeforces.com/problemset/problem/1095/A"
+                },
+                {
+                    "id": "Fix-You",
+                    "sl_no_in_step": 27,
+                    "title": "Fix You",
+                    "cf_link": "https://codeforces.com/problemset/problem/1391/B"
+                },
+                {
+                    "id": "String-Task",
+                    "sl_no_in_step": 28,
+                    "title": "String Task",
+                    "cf_link": "https://codeforces.com/problemset/problem/118/A"
+                },
+                {
+                    "id": "Assigning-to-Classes",
+                    "sl_no_in_step": 29,
+                    "title": "Assigning to Classes",
+                    "cf_link": "https://codeforces.com/problemset/problem/1300/B"
+                },
+                {
+                    "id": "Numbers-on-Whiteboard",
+                    "sl_no_in_step": 30,
+                    "title": "Numbers on Whiteboard",
+                    "cf_link": "https://codeforces.com/problemset/problem/1430/C"
+                },
+                {
+                    "id": "Petr-and-Book",
+                    "sl_no_in_step": 31,
+                    "title": "Petr and Book",
+                    "cf_link": "https://codeforces.com/contest/139/problem/A"
+                },
+                {
+                    "id": "k-String",
+                    "sl_no_in_step": 32,
+                    "title": "k-String",
+                    "cf_link": "https://codeforces.com/problemset/problem/219/A"
+                },
+                {
+                    "id": "Game-23",
+                    "sl_no_in_step": 33,
+                    "title": "Game 23",
+                    "cf_link": "https://codeforces.com/problemset/problem/1141/A"
+                },
+                {
+                    "id": "Present-from-Lena",
+                    "sl_no_in_step": 34,
+                    "title": "Present from Lena",
+                    "cf_link": "https://codeforces.com/problemset/problem/118/B"
+                },
+                {
+                    "id": "Donut-Shops",
+                    "sl_no_in_step": 35,
+                    "title": "Donut Shops",
+                    "cf_link": "https://codeforces.com/problemset/problem/1373/A"
+                },
+                {
+                    "id": "Buttons",
+                    "sl_no_in_step": 36,
+                    "title": "Buttons",
+                    "cf_link": "https://codeforces.com/problemset/problem/268/B"
+                },
+                {
+                    "id": "Dreamoon-and-Stairs",
+                    "sl_no_in_step": 37,
+                    "title": "Dreamoon and Stairs",
+                    "cf_link": "https://codeforces.com/problemset/problem/476/A"
+                },
+                {
+                    "id": "New-Year-Transportation",
+                    "sl_no_in_step": 38,
+                    "title": "New Year Transportation",
+                    "cf_link": "https://codeforces.com/problemset/problem/500/A"
+                },
+                {
+                    "id": "cAPS-lOCK",
+                    "sl_no_in_step": 39,
+                    "title": "cAPS lOCK",
+                    "cf_link": "https://codeforces.com/problemset/problem/131/A"
+                },
+                {
+                    "id": "Chocolates",
+                    "sl_no_in_step": 40,
+                    "title": "Chocolates",
+                    "cf_link": "https://codeforces.com/problemset/problem/1139/B"
+                },
+                {
+                    "id": "City-Day",
+                    "sl_no_in_step": 41,
+                    "title": "City Day",
+                    "cf_link": "https://codeforces.com/problemset/problem/1199/A"
+                },
+                {
+                    "id": "Diverse-Substring",
+                    "sl_no_in_step": 42,
+                    "title": "Diverse Substring",
+                    "cf_link": "https://codeforces.com/problemset/problem/1073/A"
+                },
+                {
+                    "id": "Lucky-Sum-of-Digits",
+                    "sl_no_in_step": 43,
+                    "title": "Lucky Sum of Digits",
+                    "cf_link": "https://codeforces.com/problemset/problem/109/A"
+                },
+                {
+                    "id": "Rooms-and-Staircases",
+                    "sl_no_in_step": 44,
+                    "title": "Rooms and Staircases",
+                    "cf_link": "https://codeforces.com/problemset/problem/1244/B"
+                },
+                {
+                    "id": "Palindromic-Twist",
+                    "sl_no_in_step": 45,
+                    "title": "Palindromic Twist",
+                    "cf_link": "https://codeforces.com/problemset/problem/1027/A"
+                },
+                {
+                    "id": "Shuffle-Hashing",
+                    "sl_no_in_step": 46,
+                    "title": "Shuffle Hashing",
+                    "cf_link": "https://codeforces.com/problemset/problem/1278/A"
+                },
+                {
+                    "id": "Middle-of-the-Contest",
+                    "sl_no_in_step": 47,
+                    "title": "Middle of the Contest",
+                    "cf_link": "https://codeforces.com/problemset/problem/1133/A"
+                },
+                {
+                    "id": "OR-in-Matrix",
+                    "sl_no_in_step": 48,
+                    "title": "OR in Matrix",
+                    "cf_link": "https://codeforces.com/problemset/problem/486/B"
+                },
+                {
+                    "id": "Balanced-Rating-Changes",
+                    "sl_no_in_step": 49,
+                    "title": "Balanced Rating Changes",
+                    "cf_link": "https://codeforces.com/problemset/problem/1237/A"
+                },
+                {
+                    "id": "Amr-and-Music",
+                    "sl_no_in_step": 50,
+                    "title": "Amr and Music",
+                    "cf_link": "https://codeforces.com/problemset/problem/507/A"
+                }
+            ]
+        },
+        {
+            "step_no": 2,
+            "topic": "Maths",
+            "data": [
+                {
+                    "id": "Ichihime-and-Triangle",
+                    "sl_no_in_step": 1,
+                    "title": "Ichihime and Triangle",
+                    "cf_link": "https://codeforces.com/problemset/problem/1337/A"
+                },
+                {
+                    "id": "LCM-Problem",
+                    "sl_no_in_step": 2,
+                    "title": "LCM Problem",
+                    "cf_link": "https://codeforces.com/problemset/problem/1389/A"
+                },
+                {
+                    "id": "Mahmoud-and-Ehab-and-the-even-odd-game",
+                    "sl_no_in_step": 3,
+                    "title": "Mahmoud and Ehab and the even-odd game",
+                    "cf_link": "https://codeforces.com/problemset/problem/959/A"
+                },
+                {
+                    "id": "Array-with-Odd-Sum",
+                    "sl_no_in_step": 4,
+                    "title": "Array with Odd Sum",
+                    "cf_link": "https://codeforces.com/problemset/problem/1296/A"
+                },
+                {
+                    "id": "Floor-Number",
+                    "sl_no_in_step": 5,
+                    "title": "Floor Number",
+                    "cf_link": "https://codeforces.com/problemset/problem/1426/A"
+                },
+                {
+                    "id": "Three-Pairwise-Maximums",
+                    "sl_no_in_step": 6,
+                    "title": "Three Pairwise Maximums",
+                    "cf_link": "https://codeforces.com/problemset/problem/1385/A"
+                },
+                {
+                    "id": "Park-Lighting",
+                    "sl_no_in_step": 7,
+                    "title": "Park Lighting",
+                    "cf_link": "https://codeforces.com/problemset/problem/1358/A"
+                },
+                {
+                    "id": "Collecting-Coins",
+                    "sl_no_in_step": 8,
+                    "title": "Collecting Coins",
+                    "cf_link": "https://codeforces.com/problemset/problem/1294/A"
+                },
+                {
+                    "id": "Required-Remainder",
+                    "sl_no_in_step": 9,
+                    "title": "Required Remainder",
+                    "cf_link": "https://codeforces.com/problemset/problem/1374/A"
+                },
+                {
+                    "id": "Magical-Sticks",
+                    "sl_no_in_step": 10,
+                    "title": "Magical Sticks",
+                    "cf_link": "https://codeforces.com/problemset/problem/1371/A"
+                },
+                {
+                    "id": "Minimal-Square",
+                    "sl_no_in_step": 11,
+                    "title": "Minimal Square",
+                    "cf_link": "https://codeforces.com/problemset/problem/1360/A"
+                },
+                {
+                    "id": "Even-Array",
+                    "sl_no_in_step": 12,
+                    "title": "Even Array",
+                    "cf_link": "https://codeforces.com/problemset/problem/1367/B"
+                },
+                {
+                    "id": "Most-Unstable-Array",
+                    "sl_no_in_step": 13,
+                    "title": "Most Unstable Array",
+                    "cf_link": "https://codeforces.com/problemset/problem/1353/A"
+                },
+                {
+                    "id": "Balanced-Array",
+                    "sl_no_in_step": 14,
+                    "title": "Balanced Array",
+                    "cf_link": "https://codeforces.com/problemset/problem/1343/B"
+                },
+                {
+                    "id": "Buy-a-Shovel",
+                    "sl_no_in_step": 15,
+                    "title": "Buy a Shovel",
+                    "cf_link": "https://codeforces.com/problemset/problem/732/A"
+                },
+                {
+                    "id": "Restoring-Three-Numbers",
+                    "sl_no_in_step": 16,
+                    "title": "Restoring Three Numbers",
+                    "cf_link": "https://codeforces.com/problemset/problem/1154/A"
+                },
+                {
+                    "id": "Yet-Another-Two-Integers-Problem",
+                    "sl_no_in_step": 17,
+                    "title": "Yet Another Two Integers Problem",
+                    "cf_link": "https://codeforces.com/problemset/problem/1409/A"
+                },
+                {
+                    "id": "Candies-and-Two-Sisters",
+                    "sl_no_in_step": 18,
+                    "title": "Candies and Two Sisters",
+                    "cf_link": "https://codeforces.com/problemset/problem/1335/A"
+                },
+                {
+                    "id": "Divisibility-Problem",
+                    "sl_no_in_step": 19,
+                    "title": "Divisibility Problem",
+                    "cf_link": "https://codeforces.com/problemset/problem/1328/A"
+                },
+                {
+                    "id": "Elephant",
+                    "sl_no_in_step": 20,
+                    "title": "Elephant",
+                    "cf_link": "https://codeforces.com/problemset/problem/617/A"
+                },
+                {
+                    "id": "Domino-piling",
+                    "sl_no_in_step": 21,
+                    "title": "Domino piling",
+                    "cf_link": "https://codeforces.com/problemset/problem/50/A"
+                },
+                {
+                    "id": "Emotes",
+                    "sl_no_in_step": 22,
+                    "title": "Emotes",
+                    "cf_link": "https://codeforces.com/problemset/problem/1117/B"
+                },
+                {
+                    "id": "Drinks-Choosing",
+                    "sl_no_in_step": 23,
+                    "title": "Drinks Choosing",
+                    "cf_link": "https://codeforces.com/problemset/problem/1195/A"
+                },
+                {
+                    "id": "Chunga-Changa",
+                    "sl_no_in_step": 24,
+                    "title": "Chunga-Changa",
+                    "cf_link": "https://codeforces.com/problemset/problem/1181/A"
+                },
+                {
+                    "id": "Dice-Tower",
+                    "sl_no_in_step": 25,
+                    "title": "Dice Tower",
+                    "cf_link": "https://codeforces.com/problemset/problem/1266/B"
+                },
+                {
+                    "id": "Digital-root",
+                    "sl_no_in_step": 26,
+                    "title": "Digital root",
+                    "cf_link": "https://codeforces.com/problemset/problem/1107/B"
+                },
+                {
+                    "id": "Heating",
+                    "sl_no_in_step": 27,
+                    "title": "Heating",
+                    "cf_link": "https://codeforces.com/problemset/problem/1260/A"
+                },
+                {
+                    "id": "Competitive-Programmer",
+                    "sl_no_in_step": 28,
+                    "title": "Competitive Programmer",
+                    "cf_link": "https://codeforces.com/problemset/problem/1266/A"
+                },
+                {
+                    "id": "Triangles-on-a-Rectangle",
+                    "sl_no_in_step": 29,
+                    "title": "Triangles on a Rectangle",
+                    "cf_link": "https://codeforces.com/problemset/problem/1620/B"
+                },
+                {
+                    "id": "Pasha-and-Stick",
+                    "sl_no_in_step": 30,
+                    "title": "Pasha and Stick",
+                    "cf_link": "https://codeforces.com/problemset/problem/610/A"
+                },
+                {
+                    "id": "Young-Physicist",
+                    "sl_no_in_step": 31,
+                    "title": "Young Physicist",
+                    "cf_link": "https://codeforces.com/problemset/problem/69/A"
+                },
+                {
+                    "id": "Theatre Square",
+                    "sl_no_in_step": 32,
+                    "title": "Theatre-Square",
+                    "cf_link": "https://codeforces.com/problemset/problem/1/A"
+                },
+                {
+                    "id": "Water-Lily",
+                    "sl_no_in_step": 33,
+                    "title": "Water Lily",
+                    "cf_link": "https://codeforces.com/problemset/problem/1199/B"
+                },
+                {
+                    "id": "Magic-Stick",
+                    "sl_no_in_step": 34,
+                    "title": "Magic Stick",
+                    "cf_link": "https://codeforces.com/problemset/problem/1257/B"
+                },
+                {
+                    "id": "BowWow-and-the-Timetable",
+                    "sl_no_in_step": 35,
+                    "title": "BowWow and the Timetable",
+                    "cf_link": "https://codeforces.com/problemset/problem/1204/A"
+                },
+                {
+                    "id": "Drazil-and-Date",
+                    "sl_no_in_step": 36,
+                    "title": "Drazil and Date",
+                    "cf_link": "https://codeforces.com/problemset/problem/515/A"
+                },
+                {
+                    "id": "Boboniu-Likes-to-Color-Balls",
+                    "sl_no_in_step": 37,
+                    "title": "Boboniu Likes to Color Balls",
+                    "cf_link": "https://codeforces.com/problemset/problem/1395/A"
+                },
+                {
+                    "id": "Lovely-Palindromes",
+                    "sl_no_in_step": 38,
+                    "title": "Lovely Palindromes",
+                    "cf_link": "https://codeforces.com/problemset/problem/688/B"
+                },
+                {
+                    "id": "String-LCM",
+                    "sl_no_in_step": 39,
+                    "title": "String LCM",
+                    "cf_link": "https://codeforces.com/problemset/problem/1473/B"
+                },
+                {
+                    "id": "K-divisible-Sum",
+                    "sl_no_in_step": 40,
+                    "title": "K-divisible Sum",
+                    "cf_link": "https://codeforces.com/problemset/problem/1476/A"
+                },
+                {
+                    "id": "Berland-Poker",
+                    "sl_no_in_step": 41,
+                    "title": "Berland Poker",
+                    "cf_link": "https://codeforces.com/problemset/problem/1359/A"
+                },
+                {
+                    "id": "Road-To-Zero",
+                    "sl_no_in_step": 42,
+                    "title": "Road To Zero",
+                    "cf_link": "https://codeforces.com/problemset/problem/1342/A"
+                },
+                {
+                    "id": "Dungeon",
+                    "sl_no_in_step": 43,
+                    "title": "Dungeon",
+                    "cf_link": "https://codeforces.com/problemset/problem/1463/A"
+                },
+                {
+                    "id": "Caisa-and-Pylons",
+                    "sl_no_in_step": 44,
+                    "title": "Caisa and Pylons",
+                    "cf_link": "https://codeforces.com/problemset/problem/463/B"
+                },
+                {
+                    "id": "GCD-Length",
+                    "sl_no_in_step": 45,
+                    "title": "GCD Length",
+                    "cf_link": "https://codeforces.com/problemset/problem/1511/B"
+                },
+                {
+                    "id": "Lucky-Numbers",
+                    "sl_no_in_step": 46,
+                    "title": "Lucky Numbers",
+                    "cf_link": "https://codeforces.com/problemset/problem/630/C"
+                },
+                {
+                    "id": "Number-Circle",
+                    "sl_no_in_step": 47,
+                    "title": "Number Circle",
+                    "cf_link": "https://codeforces.com/problemset/problem/1189/B"
+                },
+                {
+                    "id": "Non-Coprime-Partition",
+                    "sl_no_in_step": 48,
+                    "title": "Non-Coprime Partition",
+                    "cf_link": "https://codeforces.com/problemset/problem/1038/B"
+                },
+                {
+                    "id": "Hexagons!",
+                    "sl_no_in_step": 49,
+                    "title": "Hexagons!",
+                    "cf_link": "https://codeforces.com/problemset/problem/630/D"
+                },
+                {
+                    "id": "Sequence-with-Digits",
+                    "sl_no_in_step": 50,
+                    "title": "Sequence with Digits",
+                    "cf_link": "https://codeforces.com/problemset/problem/1355/A"
+                }
+            ]
+        },
+        {
+            "step_no": 3,
+            "topic": "Binary Search",
+            "data": [
+                {
+                    "id": "Hamburgers",
+                    "sl_no_in_step": 1,
+                    "title": "Hamburgers",
+                    "cf_link": "https://codeforces.com/contest/371/problem/C"
+                },
+                {
+                    "id": "Magic-Powder-1",
+                    "sl_no_in_step": 2,
+                    "title": "Magic Powder - 1",
+                    "cf_link": "https://codeforces.com/contest/670/problem/D1"
+                },
+                {
+                    "id": "Pipeline",
+                    "sl_no_in_step": 3,
+                    "title": "Pipeline",
+                    "cf_link": "https://codeforces.com/contest/287/problem/B"
+                },
+                {
+                    "id": "Poisoned-Dagger",
+                    "sl_no_in_step": 4,
+                    "title": "Poisoned Dagger",
+                    "cf_link": "https://codeforces.com/problemset/problem/1613/C"
+                },
+                {
+                    "id": "Mike-and-Chocolate-Thieves",
+                    "sl_no_in_step": 5,
+                    "title": "Mike and Chocolate Thieves",
+                    "cf_link": "https://codeforces.com/contest/689/problem/C"
+                },
+                {
+                    "id": "Increasing-by-Modulo",
+                    "sl_no_in_step": 6,
+                    "title": "Increasing by Modulo",
+                    "cf_link": "https://codeforces.com/contest/1169/problem/C"
+                },
+                {
+                    "id": "Vasya-and-Robot",
+                    "sl_no_in_step": 7,
+                    "title": "Vasya and Robot",
+                    "cf_link": "https://codeforces.com/contest/1073/problem/C"
+                },
+                {
+                    "id": "Multiplication-Table",
+                    "sl_no_in_step": 8,
+                    "title": "Multiplication Table",
+                    "cf_link": "https://codeforces.com/contest/448/problem/D"
+                },
+                {
+                    "id": "Stressful-Training",
+                    "sl_no_in_step": 9,
+                    "title": "Stressful Training",
+                    "cf_link": "https://codeforces.com/contest/1132/problem/D"
+                },
+                {
+                    "id": "Water-Taps",
+                    "sl_no_in_step": 10,
+                    "title": "Water Taps",
+                    "cf_link": "https://codeforces.com/contest/954/problem/E"
+                },
+                {
+                    "id": "Minimax-Problem",
+                    "sl_no_in_step": 11,
+                    "title": "Minimax Problem",
+                    "cf_link": "https://codeforces.com/contest/1288/problem/D"
+                },
+                {
+                    "id": "Odd-Even-Subsequence",
+                    "sl_no_in_step": 12,
+                    "title": "Odd-Even Subsequence",
+                    "cf_link": "https://codeforces.com/contest/1370/problem/D"
+                }
+            ]
+        },
+        {
+            "step_no": 4,
+            "topic": "Prime, Sieve, Prime Factorisation",
+            "data": [
+                {
+                    "id": "Prime-Generator",
+                    "sl_no_in_step": 1,
+                    "title": "Prime Generator",
+                    "cf_link": "https://www.spoj.com/problems/PRIME1/cstart=10"
+                },
+                {
+                    "id": "Printing-some=primes",
+                    "sl_no_in_step": 2,
+                    "title": "Printing some primes",
+                    "cf_link": "https://www.spoj.com/problems/TDPRIMES/"
+                },
+                {
+                    "id": "Finding-the-Kth-Prime",
+                    "sl_no_in_step": 3,
+                    "title": "Finding the Kth Prime",
+                    "cf_link": "https://www.spoj.com/problems/TDKPRIME/"
+                },
+                {
+                    "id": "Good-Sequences",
+                    "sl_no_in_step": 4,
+                    "title": "Good Sequences",
+                    "cf_link": "https://codeforces.com/contest/264/problem/B"
+                },
+                {
+                    "id": "Taxes",
+                    "sl_no_in_step": 5,
+                    "title": "Taxes",
+                    "cf_link": "https://codeforces.com/contest/735/problem/D"
+                },
+                {
+                    "id": "Soldier-and-Number-Game",
+                    "sl_no_in_step": 6,
+                    "title": "Soldier and Number Game",
+                    "cf_link": "https://codeforces.com/contest/546/problem/D"
+                },
+                {
+                    "id": "Reducing-Fractions",
+                    "sl_no_in_step": 7,
+                    "title": "Reducing Fractions",
+                    "cf_link": "https://codeforces.com/contest/222/problem/C"
+                },
+                {
+                    "id": "Petya-and-Divisors",
+                    "sl_no_in_step": 8,
+                    "title": "Petya and Divisors",
+                    "cf_link": "https://codeforces.com/problemset/problem/111/B"
+                },
+                {
+                    "id": "Primes-and-Multiplication",
+                    "sl_no_in_step": 9,
+                    "title": "Primes and Multiplication",
+                    "cf_link": "https://codeforces.com/contest/1228/problem/C"
+                },
+                {
+                    "id": "GCD-Counting",
+                    "sl_no_in_step": 10,
+                    "title": "GCD Counting",
+                    "cf_link": "https://codeforces.com/contest/1101/problem/D"
+                }
+            ]
+        },
+        {
+            "step_no": 5,
+            "topic": "Bit Manipulation/Power Set",
+            "data": [
+                {
+                    "id": "New-Year's-Eve",
+                    "sl_no_in_step": 1,
+                    "title": "New Year's Eve",
+                    "cf_link": "https://codeforces.com/problemset/problem/912/B"
+                },
+                {
+                    "id": "Special-Numbers",
+                    "sl_no_in_step": 2,
+                    "title": "Special Numbers",
+                    "cf_link": "https://codeforces.com/problemset/problem/1594/B"
+                },
+                {
+                    "id": "Petr-and-a-Combination-Lock",
+                    "sl_no_in_step": 3,
+                    "title": "Petr and a Combination Lock",
+                    "cf_link": "https://codeforces.com/problemset/problem/1097/B"
+                },
+                {
+                    "id": "Array-Elimination",
+                    "sl_no_in_step": 4,
+                    "title": "Array Elimination",
+                    "cf_link": "https://codeforces.com/contest/1602/problem/C"
+                },
+                {
+                    "id": "Powers-Of-Two",
+                    "sl_no_in_step": 5,
+                    "title": "Powers Of Two",
+                    "cf_link": "https://codeforces.com/problemset/problem/1095/C"
+                },
+                {
+                    "id": "Berland-Crossword",
+                    "sl_no_in_step": 6,
+                    "title": "Berland Crossword",
+                    "cf_link": "https://codeforces.com/problemset/problem/1494/B"
+                },
+                {
+                    "id": "Dima-and-a-Bad-XOR",
+                    "sl_no_in_step": 7,
+                    "title": "Dima and a Bad XOR",
+                    "cf_link": "https://codeforces.com/problemset/problem/1151/B"
+                },
+                {
+                    "id": "p-binary",
+                    "sl_no_in_step": 8,
+                    "title": "p-binary",
+                    "cf_link": "https://codeforces.com/problemset/problem/1225/C"
+                },
+                {
+                    "id": "Ehab-and-the-Expected-XOR-Problem",
+                    "sl_no_in_step": 9,
+                    "title": "Ehab and the Expected XOR Problem",
+                    "cf_link": "https://codeforces.com/contest/1174/problem/D"
+                },
+                {
+                    "id": "505",
+                    "sl_no_in_step": 10,
+                    "title": "505",
+                    "cf_link": "https://codeforces.com/problemset/problem/1391/D"
+                },
+                {
+                    "id": "Zookeeper-and-The-Infinite-Zoo",
+                    "sl_no_in_step": 11,
+                    "title": "Zookeeper and The Infinite Zoo",
+                    "cf_link": "https://codeforces.com/problemset/problem/1491/D"
+                }
+            ]
+        },
+        {
+            "step_no": 6,
+            "topic": "Stack/Queues/PriorityQueues",
+            "data": [
+                {
+                    "id": "Alternating-Current",
+                    "sl_no_in_step": 1,
+                    "title": "Alternating Current",
+                    "cf_link": "https://codeforces.com/contest/343/problem/B"
+                },
+                {
+                    "id": "Cd-and-pwd-commands",
+                    "sl_no_in_step": 2,
+                    "title": "Cd and pwd commands",
+                    "cf_link": "https://codeforces.com/contest/158/problem/C"
+                },
+                {
+                    "id": "Longest-Regular-Bracket-Sequence",
+                    "sl_no_in_step": 3,
+                    "title": "Longest Regular Bracket Sequence",
+                    "cf_link": "https://codeforces.com/contest/5/problem/C"
+                },
+                {
+                    "id": "Pair-of-Numbers",
+                    "sl_no_in_step": 4,
+                    "title": "Pair of Numbers",
+                    "cf_link": "https://codeforces.com/contest/359/problem/D"
+                },
+                {
+                    "id": "Great-Vova-Wall-(Version-1)",
+                    "sl_no_in_step": 5,
+                    "title": "Great Vova Wall (Version 1)",
+                    "cf_link": "https://codeforces.com/contest/1092/problem/D1"
+                },
+                {
+                    "id": "Skyscrapers-(hard-version)",
+                    "sl_no_in_step": 6,
+                    "title": "Skyscrapers (hard version)",
+                    "cf_link": "https://codeforces.com/contest/1313/problem/C2"
+                },
+                {
+                    "id": "Phoenix-and-Towers",
+                    "sl_no_in_step": 7,
+                    "title": "Phoenix and Towers",
+                    "cf_link": "https://codeforces.com/contest/1515/problem/C"
+                },
+                {
+                    "id": "Psychos-in-a-Line",
+                    "sl_no_in_step": 8,
+                    "title": "Psychos in a Line",
+                    "cf_link": "https://codeforces.com/contest/319/problem/B"
+                },
+                {
+                    "id": "Strip",
+                    "sl_no_in_step": 9,
+                    "title": "Strip",
+                    "cf_link": "https://codeforces.com/contest/487/problem/B"
+                },
+                {
+                    "id": "Great-Vova-Wall-(Version-2)",
+                    "sl_no_in_step": 10,
+                    "title": "Great Vova Wall (Version 2)",
+                    "cf_link": "https://codeforces.com/contest/1092/problem/D2"
+                },
+                {
+                    "id": "Special-Segments-of-Permutation",
+                    "sl_no_in_step": 11,
+                    "title": "Special Segments of Permutation",
+                    "cf_link": "https://codeforces.com/contest/1156/problem/E"
+                },
+                {
+                    "id": "Stack-Sorting",
+                    "sl_no_in_step": 12,
+                    "title": "Stack Sorting",
+                    "cf_link": "https://codeforces.com/contest/911/problem/E"
+                },
+                {
+                    "id": "Breaking-Good",
+                    "sl_no_in_step": 13,
+                    "title": "Breaking Good",
+                    "cf_link": "https://codeforces.com/contest/507/problem/E?locale=en"
+                }
+            ]
+        },
+        {
+            "step_no": 7,
+            "topic": "String Algorithms",
+            "data": [
+                {
+                    "id": "Good-Substrings",
+                    "sl_no_in_step": 1,
+                    "title": "Good Substrings",
+                    "cf_link": "https://codeforces.com/problemset/problem/271/D"
+                },
+                {
+                    "id": "Prefix-Suffix-Palindrome-(Hard-version)",
+                    "sl_no_in_step": 2,
+                    "title": "Prefix-Suffix Palindrome (Hard version)",
+                    "cf_link": "https://codeforces.com/contest/1326/problem/D2"
+                },
+                {
+                    "id": "Watto-and-Mechanism",
+                    "sl_no_in_step": 3,
+                    "title": "Watto and Mechanism",
+                    "cf_link": "https://codeforces.com/contest/514/problem/C"
+                },
+                {
+                    "id": "Palindrome-Degree",
+                    "sl_no_in_step": 4,
+                    "title": "Palindrome Degree",
+                    "cf_link": "https://codeforces.com/contest/7/problem/D"
+                },
+                {
+                    "id": "Spy-Syndrome-2",
+                    "sl_no_in_step": 5,
+                    "title": "Spy Syndrome 2",
+                    "cf_link": "https://codeforces.com/contest/633/problem/C"
+                },
+                {
+                    "id": "Segment-Occurrences",
+                    "sl_no_in_step": 6,
+                    "title": "Segment Occurrences",
+                    "cf_link": "https://codeforces.com/contest/1016/problem/B"
+                },
+                {
+                    "id": "Password",
+                    "sl_no_in_step": 7,
+                    "title": "Password",
+                    "cf_link": "https://codeforces.com/problemset/problem/126/B"
+                },
+                {
+                    "id": "MUH-and-Cube-Walls",
+                    "sl_no_in_step": 8,
+                    "title": "MUH and Cube Walls",
+                    "cf_link": "https://codeforces.com/contest/471/problem/D"
+                },
+                {
+                    "id": "Camp-Schedule",
+                    "sl_no_in_step": 9,
+                    "title": "Camp Schedule",
+                    "cf_link": "https://codeforces.com/contest/1138/problem/D"
+                },
+                {
+                    "id": "Prefixes-and-Suffixes",
+                    "sl_no_in_step": 10,
+                    "title": "Prefixes and Suffixes",
+                    "cf_link": "https://codeforces.com/contest/432/problem/D"
+                },
+                {
+                    "id": "Erase-and-Extend-(Hard-Version)",
+                    "sl_no_in_step": 11,
+                    "title": "Erase and Extend (Hard Version)",
+                    "cf_link": "https://codeforces.com/contest/1537/problem/E2"
+                },
+                {
+                    "id": "Number-of-Palindromes",
+                    "sl_no_in_step": 12,
+                    "title": "Number of Palindromes",
+                    "cf_link": "https://www.spoj.com/problems/NUMOFPAL/"
+                },
+                {
+                    "id": "Longest-Palindromic-Substring",
+                    "sl_no_in_step": 13,
+                    "title": "Longest Palindromic Substring",
+                    "cf_link": "https://www.spoj.com/problems/LPS/"
+                },
+                {
+                    "id": "Mirror-Strings-!!!",
+                    "sl_no_in_step": 14,
+                    "title": "Mirror Strings !!!",
+                    "cf_link": "https://www.spoj.com/problems/MSUBSTR/"
+                },
+                {
+                    "id": "Extend-to-Palindrome",
+                    "sl_no_in_step": 15,
+                    "title": "Extend to Palindrome",
+                    "cf_link": "https://www.spoj.com/problems/EPALIN/"
+                },
+                {
+                    "id": "Sonya-and-Matrix-Beauty",
+                    "sl_no_in_step": 16,
+                    "title": "Sonya and Matrix Beauty",
+                    "cf_link": "https://codeforces.com/contest/1080/problem/E"
+                }
+            ]
+        },
+        {
+            "step_no": 8,
+            "topic": "BFS",
+            "data": [
+                {
+                    "id": "Xor-Paths",
+                    "sl_no_in_step": 1,
+                    "title": "Xor-Paths",
+                    "cf_link": "https://codeforces.com/problemset/problem/1006/F"
+                }
+            ]
+        },
+        {
+            "step_no": 9,
+            "topic": "Tree's",
+            "data": [
+                {
+                    "id": "Subordinates",
+                    "sl_no_in_step": 1,
+                    "title": "Subordinates",
+                    "cf_link": "https://cses.fi/problemset/task/1674"
+                },
+                {
+                    "id": "Tree-Matching",
+                    "sl_no_in_step": 2,
+                    "title": "Tree Matching",
+                    "cf_link": "https://cses.fi/problemset/task/1130"
+                },
+                {
+                    "id": "Circumference-of-a-Tree",
+                    "sl_no_in_step": 3,
+                    "title": "Circumference of a Tree",
+                    "cf_link": "https://codeforces.com/gym/102694/problem/A"
+                },
+                {
+                    "id": "Dynamic-Diameter",
+                    "sl_no_in_step": 4,
+                    "title": "Dynamic Diameter",
+                    "cf_link": "https://codeforces.com/gym/102694/problem/B"
+                },
+                {
+                    "id": "Military-Problem",
+                    "sl_no_in_step": 5,
+                    "title": "Military Problem",
+                    "cf_link": "https://codeforces.com/contest/1006/problem/E"
+                },
+                {
+                    "id": "Tree-Distances-II",
+                    "sl_no_in_step": 6,
+                    "title": "Tree Distances II",
+                    "cf_link": "https://cses.fi/problemset/task/1133"
+                },
+                {
+                    "id": "Three-Paths-on-a-Tree",
+                    "sl_no_in_step": 7,
+                    "title": "Three Paths on a Tree",
+                    "cf_link": "https://codeforces.com/contest/1294/problem/F"
+                }
+            ]
+        },
+        {
+            "step_no": 10,
+            "topic": "LCA",
+            "data": [
+                {
+                    "id": "Sloth-Naptime",
+                    "sl_no_in_step": 1,
+                    "title": "Sloth Naptime",
+                    "cf_link": "https://codeforces.com/gym/102694/problem/C"
+                },
+                {
+                    "id": "Cycle-Free-Flow",
+                    "sl_no_in_step": 2,
+                    "title": "Cycle Free Flow",
+                    "cf_link": "https://codeforces.com/gym/102694/problem/D"
+                },
+                {
+                    "id": "Tree-Queries",
+                    "sl_no_in_step": 3,
+                    "title": "Tree Queries",
+                    "cf_link": "https://codeforces.com/contest/1328/problem/E"
+                },
+                {
+                    "id": "1-Trees-and-Queries",
+                    "sl_no_in_step": 4,
+                    "title": "1-Trees and Queries",
+                    "cf_link": "https://codeforces.com/contest/1304/problem/E"
+                },
+                {
+                    "id": "Blood-Cousins",
+                    "sl_no_in_step": 5,
+                    "title": "Blood Cousins",
+                    "cf_link": "https://codeforces.com/contest/208/problem/E"
+                },
+                {
+                    "id": "Fools-and-Roads",
+                    "sl_no_in_step": 6,
+                    "title": "Fools and Roads",
+                    "cf_link": "https://codeforces.com/contest/191/problem/C"
+                },
+                {
+                    "id": "A-and-B-and-Lecture-Rooms",
+                    "sl_no_in_step": 7,
+                    "title": "A and B and Lecture Rooms",
+                    "cf_link": "https://codeforces.com/contest/519/problem/E"
+                },
+                {
+                    "id": "Duff-in-the-Army",
+                    "sl_no_in_step": 8,
+                    "title": "Duff-in-the-Army",
+                    "cf_link": "https://codeforces.com/contest/587/problem/C"
+                },
+                {
+                    "id": "Minimum-spanning-tree-for-each-edge",
+                    "sl_no_in_step": 9,
+                    "title": "Minimum spanning tree for each edge",
+                    "cf_link": "https://codeforces.com/contest/609/problem/E"
+                },
+                {
+                    "id": "Information-Graph",
+                    "sl_no_in_step": 10,
+                    "title": "Information Graph",
+                    "cf_link": "https://codeforces.com/contest/466/problem/E"
+                },
+                {
+                    "id": "Filthy-Rich-Trees",
+                    "sl_no_in_step": 11,
+                    "title": "Filthy Rich Trees",
+                    "cf_link": "https://codeforces.com/gym/102694/problem/E"
+                },
+                {
+                    "id": "The-Lorax",
+                    "sl_no_in_step": 12,
+                    "title": "The-Lorax",
+                    "cf_link": "https://codeforces.com/gym/102694/problem/F"
+                }
+            ]
+        },
+        {
+            "step_no": 11,
+            "topic": "Graph Algorithms",
+            "data": [
+                {
+                    "id": "Two-Buttons",
+                    "sl_no_in_step": 1,
+                    "title": "Two Buttons",
+                    "cf_link": "https://codeforces.com/problemset/problem/520/B"
+                },
+                {
+                    "id": "Party",
+                    "sl_no_in_step": 2,
+                    "title": "Party",
+                    "cf_link": "https://codeforces.com/problemset/problem/115/A"
+                },
+                {
+                    "id": "Kefa-and-Park",
+                    "sl_no_in_step": 3,
+                    "title": "Kefa and Park",
+                    "cf_link": "https://codeforces.com/problemset/problem/580/C"
+                },
+                {
+                    "id": "Cyclic-Components",
+                    "sl_no_in_step": 4,
+                    "title": "Cyclic Components",
+                    "cf_link": "https://codeforces.com/problemset/problem/977/E"
+                },
+                {
+                    "id": "Graph-Without-Long-Directed-Paths",
+                    "sl_no_in_step": 5,
+                    "title": "Graph Without Long Directed Paths",
+                    "cf_link": "https://codeforces.com/contest/1144/problem/F"
+                },
+                {
+                    "id": "Fox-And-Names",
+                    "sl_no_in_step": 6,
+                    "title": "Fox And Names",
+                    "cf_link": "https://codeforces.com/contest/510/problem/C"
+                },
+                {
+                    "id": "Dijkstra?",
+                    "sl_no_in_step": 7,
+                    "title": "Dijkstra?",
+                    "cf_link": "https://codeforces.com/contest/20/problem/C"
+                },
+                {
+                    "id": "Strongly-Connected-City",
+                    "sl_no_in_step": 8,
+                    "title": "Strongly Connected City",
+                    "cf_link": "https://codeforces.com/problemset/problem/475/B"
+                },
+                {
+                    "id": "Fair",
+                    "sl_no_in_step": 9,
+                    "title": "Fair",
+                    "cf_link": "https://codeforces.com/contest/986/problem/A"
+                },
+                {
+                    "id": "King's-Path",
+                    "sl_no_in_step": 10,
+                    "title": "King's Path",
+                    "cf_link": "https://codeforces.com/contest/242/problem/C"
+                },
+                {
+                    "id": "Monopole-Magnets",
+                    "sl_no_in_step": 11,
+                    "title": "Monopole Magnets",
+                    "cf_link": "https://codeforces.com/contest/1345/problem/D"
+                },
+                {
+                    "id": "Planets",
+                    "sl_no_in_step": 12,
+                    "title": "Planets",
+                    "cf_link": "https://codeforces.com/contest/229/problem/B"
+                },
+                {
+                    "id": "Directing-Edges",
+                    "sl_no_in_step": 13,
+                    "title": "Directing Edges",
+                    "cf_link": "https://codeforces.com/contest/1385/problem/E"
+                },
+                {
+                    "id": "Greg-and-Graph",
+                    "sl_no_in_step": 14,
+                    "title": "Greg and Graph",
+                    "cf_link": "https://codeforces.com/contest/295/problem/B"
+                },
+                {
+                    "id": "Unstable-String-Sort",
+                    "sl_no_in_step": 15,
+                    "title": "Unstable String Sort",
+                    "cf_link": "https://codeforces.com/contest/1213/problem/F"
+                },
+                {
+                    "id": "Weights-Distributing",
+                    "sl_no_in_step": 16,
+                    "title": "Weights Distributing",
+                    "cf_link": "https://codeforces.com/contest/1343/problem/E"
+                },
+                {
+                    "id": "String-Coloring-(easy-version)",
+                    "sl_no_in_step": 17,
+                    "title": "String Coloring (easy version)",
+                    "cf_link": "https://codeforces.com/contest/1296/problem/E1"
+                },
+                {
+                    "id": "Book",
+                    "sl_no_in_step": 18,
+                    "title": "Book",
+                    "cf_link": "https://codeforces.com/contest/1573/problem/C"
+                },
+                {
+                    "id": "How-Many-Paths?",
+                    "sl_no_in_step": 19,
+                    "title": "How Many Paths?",
+                    "cf_link": "https://codeforces.com/contest/1547/problem/G"
+                },
+                {
+                    "id": "Dima-and-Bacteria",
+                    "sl_no_in_step": 20,
+                    "title": "Dima and Bacteria",
+                    "cf_link": "https://codeforces.com/contest/400/problem/D"
+                },
+                {
+                    "id": "Greedy-Merchants",
+                    "sl_no_in_step": 21,
+                    "title": "Greedy Merchants",
+                    "cf_link": "https://codeforces.com/contest/178/problem/B3"
+                }
+            ]
+        },
+        {
+            "step_no": 12,
+            "topic": "Matrix Exponentiation",
+            "data": [
+                {
+                    "id": "Plant",
+                    "sl_no_in_step": 1,
+                    "title": "Plant",
+                    "cf_link": "https://codeforces.com/problemset/problem/185/A"
+                },
+                {
+                    "id": "Magic-Gems",
+                    "sl_no_in_step": 2,
+                    "title": "Magic Gems",
+                    "cf_link": "https://codeforces.com/contest/1117/problem/D"
+                },
+                {
+                    "id": "Once-Again",
+                    "sl_no_in_step": 3,
+                    "title": "Once Again",
+                    "cf_link": "https://codeforces.com/contest/582/problem/B"
+                },
+                {
+                    "id": "Decoding-Genome",
+                    "sl_no_in_step": 4,
+                    "title": "Decoding Genome",
+                    "cf_link": "https://codeforces.com/contest/222/problem/E"
+                },
+                {
+                    "id": "Wet-Shark-and-Blocks",
+                    "sl_no_in_step": 5,
+                    "title": "Wet Shark and Blocks",
+                    "cf_link": "https://codeforces.com/contest/621/problem/E"
+                },
+                {
+                    "id": "Product-Oriented-Recurrence",
+                    "sl_no_in_step": 6,
+                    "title": "Product Oriented Recurrence",
+                    "cf_link": "https://codeforces.com/contest/1182/problem/E"
+                }
+            ]
+        },
+        {
+            "step_no": 13,
+            "topic": "Trie",
+            "data": [
+                {
+                    "id": "Vasiliy's-Multiset",
+                    "sl_no_in_step": 1,
+                    "title": "Vasiliy's Multiset",
+                    "cf_link": "https://codeforces.com/contest/706/problem/D"
+                },
+                {
+                    "id": "Perfect-Security",
+                    "sl_no_in_step": 2,
+                    "title": "Perfect Security",
+                    "cf_link": "https://codeforces.com/contest/948/problem/D"
+                },
+                {
+                    "id": "Beautiful-Subarrays",
+                    "sl_no_in_step": 3,
+                    "title": "Beautiful Subarrays",
+                    "cf_link": "https://codeforces.com/contest/665/problem/E"
+                },
+                {
+                    "id": "Dr.-Evil-Underscores",
+                    "sl_no_in_step": 4,
+                    "title": "Dr. Evil Underscores",
+                    "cf_link": "https://codeforces.com/contest/1285/problem/D"
+                },
+                {
+                    "id": "Polycarp's-phone-book",
+                    "sl_no_in_step": 5,
+                    "title": "Polycarp's phone book",
+                    "cf_link": "https://codeforces.com/contest/858/problem/D"
+                },
+                {
+                    "id": "A-Lot-of-Games",
+                    "sl_no_in_step": 6,
+                    "title": "A Lot of Games",
+                    "cf_link": "https://codeforces.com/contest/455/problem/B"
+                },
+                {
+                    "id": "Petr#",
+                    "sl_no_in_step": 7,
+                    "title": "Petr#",
+                    "cf_link": "https://codeforces.com/contest/113/problem/B"
+                },
+                {
+                    "id": "Sausage-Maximization",
+                    "sl_no_in_step": 8,
+                    "title": "Sausage Maximization",
+                    "cf_link": "https://codeforces.com/contest/282/problem/E"
+                }
+            ]
+        },
+        {
+            "step_no": 14,
+            "topic": "Dynamic Programming",
+            "data": [
+                {
+                    "id": "Classy-Numbers",
+                    "sl_no_in_step": 1,
+                    "title": "Classy Numbers",
+                    "cf_link": "https://codeforces.com/contest/1036/problem/C"
+                },
+                {
+                    "id": "QAQ",
+                    "sl_no_in_step": 2,
+                    "title": "QAQ",
+                    "cf_link": "https://codeforces.com/problemset/problem/894/A"
+                },
+                {
+                    "id": "Napoleon-Cake",
+                    "sl_no_in_step": 3,
+                    "title": "Napoleon Cake",
+                    "cf_link": "https://codeforces.com/problemset/problem/1501/B"
+                },
+                {
+                    "id": "Red-and-Blue",
+                    "sl_no_in_step": 4,
+                    "title": "Red and Blue",
+                    "cf_link": "https://codeforces.com/problemset/problem/1469/B"
+                },
+                {
+                    "id": "Fence",
+                    "sl_no_in_step": 5,
+                    "title": "Fence",
+                    "cf_link": "https://codeforces.com/problemset/problem/363/B"
+                },
+                {
+                    "id": "Ilya-and-Queries",
+                    "sl_no_in_step": 6,
+                    "title": "Ilya and Queries",
+                    "cf_link": "https://codeforces.com/problemset/problem/313/B"
+                },
+                {
+                    "id": "Flipping-Game",
+                    "sl_no_in_step": 7,
+                    "title": "Flipping Game",
+                    "cf_link": "https://codeforces.com/problemset/problem/327/A"
+                },
+                {
+                    "id": "Lecture-Sleep",
+                    "sl_no_in_step": 8,
+                    "title": "Lecture Sleep",
+                    "cf_link": "https://codeforces.com/problemset/problem/961/B"
+                },
+                {
+                    "id": "Reposts",
+                    "sl_no_in_step": 9,
+                    "title": "Reposts",
+                    "cf_link": "https://codeforces.com/problemset/problem/522/A"
+                },
+                {
+                    "id": "Vitamins",
+                    "sl_no_in_step": 10,
+                    "title": "Vitamins",
+                    "cf_link": "https://codeforces.com/problemset/problem/1042/B"
+                },
+                {
+                    "id": "Cut-Ribbon",
+                    "sl_no_in_step": 11,
+                    "title": "Cut Ribbon",
+                    "cf_link": "https://codeforces.com/problemset/problem/189/A"
+                },
+                {
+                    "id": "Pokémon-Army-(easy version)",
+                    "sl_no_in_step": 12,
+                    "title": "Pokémon Army (easy version)",
+                    "cf_link": "https://codeforces.com/problemset/problem/1420/C1"
+                },
+                {
+                    "id": "Mashmokh-and-ACM",
+                    "sl_no_in_step": 13,
+                    "title": "Mashmokh and ACM",
+                    "cf_link": "https://codeforces.com/problemset/problem/414/B"
+                },
+                {
+                    "id": "Basketball-Exercise",
+                    "sl_no_in_step": 14,
+                    "title": "Basketball Exercise",
+                    "cf_link": "https://codeforces.com/problemset/problem/1195/C"
+                },
+                {
+                    "id": "Orac-and-Models",
+                    "sl_no_in_step": 15,
+                    "title": "Orac and Models",
+                    "cf_link": "https://codeforces.com/problemset/problem/1350/B"
+                },
+                {
+                    "id": "Mr.-Kitayuta,-the-Treasure-Hunter",
+                    "sl_no_in_step": 16,
+                    "title": "Mr. Kitayuta, the Treasure Hunter",
+                    "cf_link": "https://codeforces.com/contest/505/problem/C"
+                },
+                {
+                    "id": "Modulo-Sum",
+                    "sl_no_in_step": 17,
+                    "title": "Modulo Sum",
+                    "cf_link": "https://codeforces.com/contest/577/problem/B"
+                },
+                {
+                    "id": "Little-Elephant-and-Interval",
+                    "sl_no_in_step": 18,
+                    "title": "Little Elephant and Interval",
+                    "cf_link": "https://codeforces.com/contest/204/problem/A"
+                },
+                {
+                    "id": "Painting-Fence",
+                    "sl_no_in_step": 19,
+                    "title": "Painting Fence",
+                    "cf_link": "https://codeforces.com/contest/448/problem/C"
+                },
+                {
+                    "id": "Riding-in-a-Lift",
+                    "sl_no_in_step": 20,
+                    "title": "Riding in a Lift",
+                    "cf_link": "https://codeforces.com/contest/479/problem/E"
+                },
+                {
+                    "id": "Roman-and-Numbers",
+                    "sl_no_in_step": 21,
+                    "title": "Roman and Numbers",
+                    "cf_link": "https://codeforces.com/contest/401/problem/D"
+                },
+                {
+                    "id": "Hanoi-Factory",
+                    "sl_no_in_step": 22,
+                    "title": "Hanoi Factory",
+                    "cf_link": "https://codeforces.com/contest/777/problem/E"
+                },
+                {
+                    "id": "Choosing-Capital-for-Treeland",
+                    "sl_no_in_step": 23,
+                    "title": "Choosing Capital for Treeland",
+                    "cf_link": "https://codeforces.com/contest/219/problem/D"
+                },
+                {
+                    "id": "Book-of-Evil",
+                    "sl_no_in_step": 24,
+                    "title": "Book of Evil",
+                    "cf_link": "https://codeforces.com/contest/337/problem/D"
+                },
+                {
+                    "id": "Compatible-Numbers",
+                    "sl_no_in_step": 25,
+                    "title": "Compatible Numbers",
+                    "cf_link": "https://codeforces.com/contest/165/problem/E"
+                },
+                {
+                    "id": "The-Values-You-Can-Make",
+                    "sl_no_in_step": 26,
+                    "title": "The Values You Can Make",
+                    "cf_link": "https://codeforces.com/contest/687/problem/C"
+                },
+                {
+                    "id": "Clear-the-String",
+                    "sl_no_in_step": 27,
+                    "title": "Clear the String",
+                    "cf_link": "https://codeforces.com/contest/1132/problem/F"
+                },
+                {
+                    "id": "Antenna-Coverage",
+                    "sl_no_in_step": 28,
+                    "title": "Antenna Coverage",
+                    "cf_link": "https://codeforces.com/contest/1253/problem/E"
+                },
+                {
+                    "id": "Wi-Fi",
+                    "sl_no_in_step": 29,
+                    "title": "Wi-Fi",
+                    "cf_link": "https://codeforces.com/contest/1216/problem/F"
+                },
+                {
+                    "id": "Appleman-and-Tree",
+                    "sl_no_in_step": 30,
+                    "title": "Appleman and Tree",
+                    "cf_link": "https://codeforces.com/contest/461/problem/B"
+                },
+                {
+                    "id": "Kalila-and-Dimna-in-the-Logging-Industry",
+                    "sl_no_in_step": 31,
+                    "title": "Kalila and Dimna in the Logging Industry",
+                    "cf_link": "https://codeforces.com/contest/319/problem/C"
+                },
+                {
+                    "id": "The-Fair-Nut-and-Rectangles",
+                    "sl_no_in_step": 32,
+                    "title": "The Fair Nut and Rectangles",
+                    "cf_link": "https://codeforces.com/contest/1083/problem/E"
+                },
+                {
+                    "id": "The-Maths-Lecture",
+                    "sl_no_in_step": 33,
+                    "title": "The Maths Lecture",
+                    "cf_link": "https://codeforces.com/contest/507/problem/D"
+                },
+                {
+                    "id": "Bad-Luck-Island",
+                    "sl_no_in_step": 34,
+                    "title": "Bad Luck Island",
+                    "cf_link": "https://codeforces.com/contest/540/problem/D"
+                }
+            ]
+        },
+        {
+            "step_no": 15,
+            "topic": "Disjoint Set",
+            "data": [
+                {
+                    "id": "Little-Alawn's-Puzzle",
+                    "sl_no_in_step": 1,
+                    "title": "Little Alawn's Puzzle",
+                    "cf_link": "https://codeforces.com/problemset/problem/1534/C"
+                },
+                {
+                    "id": "Ice-Skating",
+                    "sl_no_in_step": 2,
+                    "title": "Ice Skating",
+                    "cf_link": "https://codeforces.com/problemset/problem/217/A"
+                },
+                {
+                    "id": "Learning-Languages",
+                    "sl_no_in_step": 3,
+                    "title": "Learning Languages",
+                    "cf_link": "https://codeforces.com/contest/277/problem/A"
+                },
+                {
+                    "id": "Bertown-Subway",
+                    "sl_no_in_step": 4,
+                    "title": "Bertown Subway",
+                    "cf_link": "https://codeforces.com/contest/884/problem/C"
+                },
+                {
+                    "id": "K-Complete-Word",
+                    "sl_no_in_step": 5,
+                    "title": "K-Complete Word",
+                    "cf_link": "https://codeforces.com/contest/1332/problem/C"
+                },
+                {
+                    "id": "Civilization",
+                    "sl_no_in_step": 6,
+                    "title": "Civilization",
+                    "cf_link": "https://codeforces.com/contest/455/problem/C"
+                },
+                {
+                    "id": "0-1-Tree",
+                    "sl_no_in_step": 7,
+                    "title": "0-1-Tree",
+                    "cf_link": "https://codeforces.com/contest/1156/problem/D"
+                },
+                {
+                    "id": "Path-Queries",
+                    "sl_no_in_step": 8,
+                    "title": "Path Queries",
+                    "cf_link": "https://codeforces.com/contest/1213/problem/G"
+                },
+                {
+                    "id": "Dogeforces",
+                    "sl_no_in_step": 9,
+                    "title": "Dogeforces",
+                    "cf_link": "https://codeforces.com/problemset/problem/1494/D"
+                }
+            ]
+        },
+        {
+            "step_no": 16,
+            "topic": "Sqrt Decomposition/ MO’s algo",
+            "data": [
+                {
+                    "id": "Powerful-array",
+                    "sl_no_in_step": 1,
+                    "title": "Powerful array",
+                    "cf_link": "https://codeforces.com/contest/86/problem/D"
+                },
+                {
+                    "id": "XOR-and-Favorite-Number",
+                    "sl_no_in_step": 2,
+                    "title": "XOR and Favorite Number",
+                    "cf_link": "https://codeforces.com/contest/617/problem/E"
+                },
+                {
+                    "id": "Little-Elephant-and-Array",
+                    "sl_no_in_step": 3,
+                    "title": "Little Elephant and Array",
+                    "cf_link": "https://codeforces.com/contest/220/problem/B"
+                },
+                {
+                    "id": "Cut-and-Stick",
+                    "sl_no_in_step": 4,
+                    "title": "Cut and Stick",
+                    "cf_link": "https://codeforces.com/contest/1514/problem/D"
+                },
+                {
+                    "id": "Tree-and-Queries",
+                    "sl_no_in_step": 5,
+                    "title": "Tree and Queries",
+                    "cf_link": "https://codeforces.com/contest/375/problem/D"
+                },
+                {
+                    "id": "XOR-on-Segment",
+                    "sl_no_in_step": 6,
+                    "title": "XOR on Segment",
+                    "cf_link": "https://codeforces.com/contest/242/problem/E"
+                }
+            ]
+        },
+        {
+            "step_no": 17,
+            "topic": "Fenwick Tree",
+            "data": [
+                {
+                    "id": "Enemy-is-weak",
+                    "sl_no_in_step": 1,
+                    "title": "Enemy is weak",
+                    "cf_link": "https://codeforces.com/contest/61/problem/E"
+                },
+                {
+                    "id": "Moving-Points",
+                    "sl_no_in_step": 2,
+                    "title": "Moving Points",
+                    "cf_link": "https://codeforces.com/contest/1311/problem/F"
+                },
+                {
+                    "id": "Cows-and-Sequence",
+                    "sl_no_in_step": 3,
+                    "title": "Cows and Sequence",
+                    "cf_link": "https://codeforces.com/contest/283/problem/A"
+                },
+                {
+                    "id": "Pashmak-and-Parmida's-problem",
+                    "sl_no_in_step": 4,
+                    "title": "Pashmak and Parmida's problem",
+                    "cf_link": "https://codeforces.com/contest/459/problem/D"
+                },
+                {
+                    "id": "Bubble-Sort-Graph",
+                    "sl_no_in_step": 5,
+                    "title": "Bubble Sort Graph",
+                    "cf_link": "https://codeforces.com/contest/340/problem/D"
+                },
+                {
+                    "id": "Vasya-and-a-Tree",
+                    "sl_no_in_step": 6,
+                    "title": "Vasya and a Tree",
+                    "cf_link": "https://codeforces.com/contest/1076/problem/E"
+                },
+                {
+                    "id": "Multiset",
+                    "sl_no_in_step": 7,
+                    "title": "Multiset",
+                    "cf_link": "https://codeforces.com/contest/1354/problem/D"
+                },
+                {
+                    "id": "Fixed-Point-Removal",
+                    "sl_no_in_step": 8,
+                    "title": "Fixed Point Removal",
+                    "cf_link": "https://codeforces.com/contest/1405/problem/E"
+                },
+                {
+                    "id": "Propagating-tree",
+                    "sl_no_in_step": 9,
+                    "title": "Propagating tree",
+                    "cf_link": "https://codeforces.com/contest/383/problem/C"
+                },
+                {
+                    "id": "Kill-Anton",
+                    "sl_no_in_step": 10,
+                    "title": "Kill Anton",
+                    "cf_link": "https://codeforces.com/contest/1526/problem/D"
+                },
+                {
+                    "id": "Little-Girl-and-Problem-on-Trees",
+                    "sl_no_in_step": 11,
+                    "title": "Little Girl and Problem on Trees",
+                    "cf_link": "https://codeforces.com/contest/276/problem/E"
+                },
+                {
+                    "id": "Tree-and-Queriess",
+                    "sl_no_in_step": 12,
+                    "title": "Tree and Queries",
+                    "cf_link": "https://codeforces.com/contest/375/problem/D"
+                }
+            ]
+        },
+        {
+            "step_no": 18,
+            "topic": "Segment Tree(lazy also included)",
+            "data": [
+                {
+                    "id": "Xenia-and-Bit-Operations",
+                    "sl_no_in_step": 1,
+                    "title": "Xenia and Bit Operations",
+                    "cf_link": "https://codeforces.com/contest/339/problem/D"
+                },
+                {
+                    "id": "Bash-and-a-Tough-MathPuzzle",
+                    "sl_no_in_step": 2,
+                    "title": "Bash and a Tough Math Puzzle",
+                    "cf_link": "https://codeforces.com/contest/914/problem/D"
+                },
+                {
+                    "id": "Pashmak-and-Parmida's-problems",
+                    "sl_no_in_step": 3,
+                    "title": "Pashmak and Parmida's problem",
+                    "cf_link": "https://codeforces.com/contest/459/problem/D"
+                },
+                {
+                    "id": "Sereja-and-Brackets",
+                    "sl_no_in_step": 4,
+                    "title": "Sereja and Brackets",
+                    "cf_link": "https://codeforces.com/contest/380/problem/C"
+                },
+                {
+                    "id": "Ant-colony",
+                    "sl_no_in_step": 5,
+                    "title": "Ant colony",
+                    "cf_link": "https://codeforces.com/contest/474/problem/F"
+                },
+                {
+                    "id": "Balanced-Playlist",
+                    "sl_no_in_step": 6,
+                    "title": "Balanced Playlist",
+                    "cf_link": "https://codeforces.com/contest/1237/problem/D"
+                },
+                {
+                    "id": "Copying-Data",
+                    "sl_no_in_step": 7,
+                    "title": "Copying Data",
+                    "cf_link": "https://codeforces.com/contest/292/problem/E"
+                },
+                {
+                    "id": "Interesting-Array",
+                    "sl_no_in_step": 8,
+                    "title": "Interesting Array",
+                    "cf_link": "https://codeforces.com/contest/482/problem/B"
+                },
+                {
+                    "id": "Subarray-Sorting",
+                    "sl_no_in_step": 9,
+                    "title": "Subarray Sorting",
+                    "cf_link": "https://codeforces.com/contest/1187/problem/D"
+                },
+                {
+                    "id": "SUM-and-REPLACE",
+                    "sl_no_in_step": 10,
+                    "title": "SUM and REPLACE",
+                    "cf_link": "https://codeforces.com/contest/920/problem/F"
+                },
+                {
+                    "id": "Playoff-Tournament",
+                    "sl_no_in_step": 11,
+                    "title": "Playoff Tournament",
+                    "cf_link": "https://codeforces.com/contest/1535/problem/D?locale=en"
+                },
+                {
+                    "id": "The-Child-and-Sequence",
+                    "sl_no_in_step": 12,
+                    "title": "The Child and Sequence",
+                    "cf_link": "https://codeforces.com/contest/438/problem/D?locale=en"
+                },
+                {
+                    "id": "Equilibrium",
+                    "sl_no_in_step": 13,
+                    "title": "Equilibrium",
+                    "cf_link": "https://codeforces.com/contest/1556/problem/E"
+                },
+                {
+                    "id": "Non-Decreasing-Dilemma",
+                    "sl_no_in_step": 14,
+                    "title": "Non-Decreasing Dilemma",
+                    "cf_link": "https://codeforces.com/contest/1567/problem/E"
+                }
+            ]
+        },
+        {
+            "step_no": 19,
+            "topic": "Lazy propagation",
+            "data": [
+                {
+                    "id": "Circular-RMQ",
+                    "sl_no_in_step": 1,
+                    "title": "Circular RMQ",
+                    "cf_link": "https://codeforces.com/contest/52/problem/C"
+                },
+                {
+                    "id": "Array-Restoration",
+                    "sl_no_in_step": 2,
+                    "title": "Array Restoration",
+                    "cf_link": "https://codeforces.com/contest/1023/problem/D"
+                },
+                {
+                    "id": "XOR-on-Segmentt",
+                    "sl_no_in_step": 3,
+                    "title": "XOR on Segment",
+                    "cf_link": "https://codeforces.com/contest/242/problem/E"
+                },
+                {
+                    "id": "Ezzat-and-Grid",
+                    "sl_no_in_step": 4,
+                    "title": "Ezzat and Grid",
+                    "cf_link": "https://codeforces.com/contest/1557/problem/D"
+                },
+                {
+                    "id": "Lucky-Queries",
+                    "sl_no_in_step": 5,
+                    "title": "Lucky Queries",
+                    "cf_link": "https://codeforces.com/contest/145/problem/E"
+                },
+                {
+                    "id": "Hanoi-Factoryy",
+                    "sl_no_in_step": 6,
+                    "title": "Hanoi Factory",
+                    "cf_link": "https://codeforces.com/contest/777/problem/E"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+Striver’s SDE Sheet – Top Coding Interview Problems
+    SDE Sheet contains very handily crafted and picked top coding interview questions from different topics of Data Structures & Algorithms. These questions are one of the most asked coding interview questions in coding interviews of companies like Google, Amazon, Microsoft, Facebook, Swiggy, Flipkart, etc, and cover almost all of the concepts related to Data Structure & Algorithms.
+
+
+Key Highlights
+    1. Cover all concepts in limited time that are needed for a DSA interview.
+    2. In-depth video solutions covering brute, better, optimal solutions.
+    3. Well structured articles/notes for quick revision.
+    4. C++, Java, Python and JavaScript code.
+    5. Company Tags associated with each program.
+    6. Notes section to save your notes for quick revision.
+    7. Used by over 2M+ people worldwide in the last 2 years.
+
+Note
+    1. The Series doesn’t focus on any specific programming language. Instead, it emphasizes logic and uses pseudocode.
+    2. The first two basic videos might use C++, but for Java tutorials, you can watch other YouTube videos. When tackling core problems of data structures and algorithms (DSA), the Series uses pseudocode that isn’t tied to any particular programming language.
+    3. However, you can find code examples in your preferred language in the notes and articles provided.
