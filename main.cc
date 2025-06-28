@@ -8,6 +8,5 @@ int main() {
     for (int i = 0; i < n; i++) {
         cout << format("{}. Hello World\n", i + 1);
     }
-
     return 0;
 }
