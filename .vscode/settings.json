@@ -110,6 +110,8 @@
     "editor.fontSize": 16,
     "editor.fontFamily": "Menlo",
     "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0.5,
     "C_Cpp.default.cStandard": "c23",
     "C_Cpp.default.cppStandard": "c++23",
     "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-15",
