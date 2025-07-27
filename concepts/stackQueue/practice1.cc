@@ -237,6 +237,84 @@ long long subArrayRanges(vector<int> &nums) {
     return largest - smallest;
 }
 
+string removeKdigits(string num, int k) {
+    if (k == num.size()) return "0";
+    stack<char> st;
+    for (int i = 0; i < num.size(); i++) {
+        while (!st.empty() && k > 0 && st.top() > num[i]) {
+            st.pop();
+            k--;
+        }
+        st.push(num[i]);
+    }
+
+    while (k > 0 && !st.empty()) {
+        st.pop();
+        k--;
+    }
+
+    string result;
+    while (!st.empty()) {
+        result.push_back(st.top());
+        st.pop();
+    }
+
+    while (!result.empty() && result.back() == '0') result.pop_back();
+    if (result.empty()) return "0";
+    reverse(result.begin(), result.end());
+    return result;
+}
+
+int largestRectangleArea(vector<int> &heights) {
+    int result = 0, n = heights.size();
+    stack<int> st;
+    for (int i = 0; i < n; i++) {
+        while (!st.empty() && heights[st.top()] >= heights[i]) {
+            int curr = st.top();
+            st.pop();
+            int left = st.empty() ? -1 : st.top();
+            result = max(result, ((i - left - 1) * heights[curr]));
+        }
+        st.push(i);
+    }
+    while (!st.empty()) {
+        int curr = st.top();
+        st.pop();
+        int left = st.empty() ? -1 : st.top();
+        result = max(result, ((n - left - 1) * heights[curr]));
+    }
+    return result;
+}
+
+int maximalRectangle(vector<vector<char>> &matrix) {
+    int result = 0, n = matrix.size();
+    vector<vector<int>> prefixSumMatrix;
+    int r = 0;
+    while (r < n) {
+        int m = matrix[r].size();
+        vector<int> row(m, 0);
+        for (int c = 0; c < m; c++) {
+            if (r == 0) {
+                row[c] = matrix[r][c] - '0';
+            } else if (matrix[r][c] > '0') {
+                row[c] = (prefixSumMatrix[r - 1][c]) + (matrix[r][c] - '0');
+            }
+        }
+        prefixSumMatrix.push_back(row);
+        r++;
+    }
+    // for (auto rw : prefixSumMatrix) {
+    //     for (auto cw : rw) {
+    //         cout << cw << " ";
+    //     }
+    //     cout << endl;
+    // }
+    for (auto rw : prefixSumMatrix) {
+        result = max(result, largestRectangleArea(rw));
+    }
+    return result;
+}
+
 int main() {
     // vi nums1 = {4, 1, 2}, nums2 = {1, 3, 4, 2};
     // vi ans = findNextGreaterElement(nums1, nums2);
@@ -259,9 +337,15 @@ int main() {
     // asteroids = {-2, 2, 1, -2};
     // vi result = asteroidCollision(asteroids);
     // printVector(result);
-    vi arr = {1, 2, 3};
-    arr = {1, 3, 3};
-    arr = {4, -2, -3, 4, 1};
-    cout << subArrayRanges(arr) << endl;
+    // vi arr = {1, 2, 3};
+    // arr = {1, 3, 3};
+    // arr = {4, -2, -3, 4, 1};
+    // cout << subArrayRanges(arr) << endl;
+    // cout << removeKdigits("33526221184202197273", 19) << endl;
+    // vi arr = {2, 1, 5, 6, 2, 3};
+    // vi arr = {2, 1, 2};
+    // cout << largestRectangleArea(arr) << endl;
+    vector<vector<char>> matrix = {{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}};
+    cout << maximalRectangle(matrix) << endl;
     return 0;
 }
