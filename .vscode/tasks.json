@@ -11,7 +11,7 @@
                 "${file}",
                 "-o",
                 // "${fileDirname}/${fileBasenameNoExtension}"
-                "${fileDirname}/bin/a.out"
+                "${workspaceFolder}/bin/a.out"
             ],
             "options": {
                 "cwd": "${fileDirname}"
