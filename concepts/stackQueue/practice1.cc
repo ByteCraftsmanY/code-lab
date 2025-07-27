@@ -114,6 +114,129 @@ int trap(vector<int> &height) {
     return result;
 }
 
+vector<int> findPreviousSmallerOrEqualElements(vector<int> const &nums) {
+    vector<int> result(nums.size(), -1);
+    stack<int> st;
+    for (int i = 0; i < nums.size(); i++) {
+        while (!st.empty() && nums[st.top()] > nums[i]) {
+            st.pop();
+        }
+        if (!st.empty()) {
+            result[i] = st.top();
+        }
+        st.push(i);
+    }
+    return result;
+}
+
+vector<int> findNextSmallerElements(vector<int> const &nums) {
+    vector<int> result(nums.size(), nums.size());
+    stack<int> st;
+    for (int i = nums.size() - 1; i >= 0; i--) {
+        while (!st.empty() && nums[st.top()] >= nums[i]) {
+            st.pop();
+        }
+        if (!st.empty()) {
+            result[i] = st.top();
+        }
+        st.push(i);
+    }
+    return result;
+}
+
+long long int sumSubarrayMins(vector<int> &arr) {
+    const int MOD = 1e9 + 7;
+    vector<int> previousSmallerElements = findPreviousSmallerOrEqualElements(arr),
+                nextSmallerElements = findNextSmallerElements(arr);
+    long long int result = 0;
+    for (int i = 0; i < arr.size(); i++) {
+        long long int count = 1LL * ((i - previousSmallerElements[i]) * (nextSmallerElements[i] - i));
+        // cout << format("{} - {}\n", arr[i], count);
+        result = (result + (1LL * arr[i] * count));  // % MOD;
+    }
+    return result;
+}
+
+vector<int> asteroidCollision(vector<int> &asteroids) {
+    stack<int> st;
+    for (auto const &asteroid : asteroids) {
+        if (asteroid > 0) {  // moving right
+            st.push(asteroid);
+            continue;
+        }
+        bool isDestroyed = false;
+        while (!st.empty() && st.top() > 0) {
+            if (st.top() == abs(asteroid)) {
+                st.pop();
+                isDestroyed = true;
+                break;
+            } else if (st.top() > abs(asteroid)) {
+                isDestroyed = true;
+                break;
+            } else {
+                st.pop();
+            }
+        }
+        if (!isDestroyed) {
+            st.push(asteroid);
+        }
+    }
+    vector<int> result;
+    while (!st.empty()) {
+        result.push_back(st.top());
+        st.pop();
+    }
+    reverse(result.begin(), result.end());
+    return result;
+}
+
+vector<int> findPreviousGreaterEqualElements(vector<int> const &arr) {
+    vector<int> result(arr.size(), -1);
+    stack<int> st;
+    for (int i = 0; i < arr.size(); i++) {
+        while (!st.empty() && arr[st.top()] < arr[i]) {
+            st.pop();
+        }
+        if (!st.empty()) {
+            result[i] = st.top();
+        }
+        st.push(i);
+    }
+    return result;
+}
+
+vector<int> findNextGreaterElements(vector<int> const &arr) {
+    vector<int> result(arr.size(), arr.size());
+    stack<int> st;
+    for (int i = arr.size() - 1; i >= 0; i--) {
+        while (!st.empty() && arr[st.top()] <= arr[i]) {
+            st.pop();
+        }
+        if (!st.empty()) {
+            result[i] = st.top();
+        }
+        st.push(i);
+    }
+    return result;
+}
+
+long long int sumSubarrayMaxs(vector<int> &arr) {
+    vector<int> previousGreaterEqualElements = findPreviousGreaterEqualElements(arr),
+                nextGreaterElements = findNextGreaterElements(arr);
+    long long int result = 0;
+    for (int i = 0; i < arr.size(); i++) {
+        long long int count = ((i - previousGreaterEqualElements[i]) * (nextGreaterElements[i] - i));
+        result = result + (arr[i] * count * 1LL);
+    }
+    return result;
+}
+
+long long subArrayRanges(vector<int> &nums) {
+    long long int largest = sumSubarrayMaxs(nums), smallest = sumSubarrayMins(nums);
+    // cout << format("{} - {}\n", largest, smallest);
+    return largest - smallest;
+}
+
 int main() {
     // vi nums1 = {4, 1, 2}, nums2 = {1, 3, 4, 2};
     // vi ans = findNextGreaterElement(nums1, nums2);
@@ -125,6 +248,20 @@ int main() {
     // vi arr = {3, 4, 2, 7, 5, 8, 10, 6}, indices = {0, 5}, ans = count_NGE(arr.size(), arr, indices.size(), indices);
     // printVector(ans);
     // vi arr = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-    vi arr = {4, 2, 0, 3, 2, 5};
-    cout << trap(arr) << endl;
+    // vi arr = {4, 2, 0, 3, 2, 5};
+    // cout << trap(arr) << endl;
+    // vi arr = {3, 1, 2, 4};
+    // cout << sumSubarrayMins(arr) << endl;
+    // vi asteroids = {5, 10, -5};
+    // asteroids = {8, -8};
+    // asteroids = {10, 2, -5};
+    // asteroids = {-2, -2, 1, -2};
+    // asteroids = {-2, 2, 1, -2};
+    // vi result = asteroidCollision(asteroids);
+    // printVector(result);
+    vi arr = {1, 2, 3};
+    arr = {1, 3, 3};
+    arr = {4, -2, -3, 4, 1};
+    cout << subArrayRanges(arr) << endl;
+    return 0;
 }

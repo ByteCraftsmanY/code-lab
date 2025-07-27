@@ -47,6 +47,18 @@ int sumSubarrayMins(vector<int> &arr) {
  * @param arr - Input array
  * @return Vector where result[i] = index of previous smaller/equal element, -1
  * if none
+ * if we have array of 1,1
+ * prev small element will be -1, -1
+ * next small element will be 2, 2
+ * contibution of 0 ele idx = (0-(-1)) * (2 - 0) = 2
+ * contibution of 1 ele idx = (1-(-1)) * (2 - 1) = 2 * 1 = 2
+ * which is wrong (2 * 2 * 1 = 4)
+ * to handle this we need to ignore equal element from one side either
+ * for that reason ignore element for 1 side let's say from left side then
+ * prev smaller equal elements will be -1 0
+ * contibution of 0 ele idx = (0-(-1)) * (2 - 0) = 2
+ * contibution of 1 ele idx = (1-0) * (2 - 1) = 1
+ * ans = 2 * 1 = 2
  */
 vector<int> findPreviousSmallerEqualElements(vector<int> &arr) {
   vector<int> result(arr.size(),
