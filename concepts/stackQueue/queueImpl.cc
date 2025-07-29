@@ -1,26 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-template <typename t>
+template <typename T>
 class QueueImpl {
    public:
-    virtual void push(t) = 0;
+    virtual void push(T) = 0;
     virtual void pop() = 0;
-    virtual t top() = 0;
+    virtual T top() = 0;
     virtual bool isEmpty() = 0;
 };
 
-template <typename t>
-class QueueArrImpl : public QueueImpl<t> {
+template <typename T>
+class QueueArrImpl : public QueueImpl<T> {
     int start, end, size, currSize;
-    vector<t> arr;
+    vector<T> arr;
 
    public:
-    QueueArrImpl(int size) : size(size), currSize(-1), arr(vector<t>(size)) {
+    QueueArrImpl(int size) : size(size), currSize(-1), arr(vector<T>(size)) {
         start = end = -1;
     }
 
-    void push(t data) {
+    void push(T data) {
         if (currSize >= size) {
             cout << "queue is full\n";
             return;
@@ -45,9 +45,9 @@ class QueueArrImpl : public QueueImpl<t> {
         currSize--;
     }
 
-    t top() {
+    T top() {
         if (currSize == -1) {
-            t data;
+            T data;
             cout << "queue is empty\n";
             return data;
         }
@@ -59,25 +59,25 @@ class QueueArrImpl : public QueueImpl<t> {
     }
 };
 
-template <typename t>
+template <typename T>
 class Node {
    public:
-    t data;
-    Node<t> *next;
+    T data;
+    Node<T> *next;
     Node() {}
-    Node(t data) : data(data), next(nullptr) {}
-    Node(t data, Node<t> *next) : data(data), next(next) {}
+    Node(T data) : data(data), next(nullptr) {}
+    Node(T data, Node<T> *next) : data(data), next(next) {}
 };
 
-template <typename t>
-class QueueLLImpl : public QueueImpl<t> {
-    Node<t> *left, *right;
+template <typename T>
+class QueueLLImpl : public QueueImpl<T> {
+    Node<T> *left, *right;
 
    public:
     QueueLLImpl() : left(nullptr), right(nullptr) {}
 
-    void push(t data) {
-        Node<t> *node = new Node<t>(data);
+    void push(T data) {
+        Node<T> *node = new Node<T>(data);
         if (!this->left && !this->right) {
             this->left = this->right = node;
             return;
@@ -95,14 +95,14 @@ class QueueLLImpl : public QueueImpl<t> {
             this->left = this->right = nullptr;
             return;
         }
-        Node<t> *temp = this->left;
+        Node<T> *temp = this->left;
         this->left = left->next;
         delete temp;
     }
 
-    t top() {
+    T top() {
         if (!left) {
-            t data;
+            T data;
             cout << "queue is empty";
             return data;
         }
