@@ -2,55 +2,88 @@
 #include <unordered_map>
 using namespace std;
 
+// https://leetcode.com/problems/lfu-cache/description/
+
+/**
+ * Node class representing a cache entry
+ * Contains key, value, frequency count, and doubly-linked list pointers
+ */
 class Node {
    public:
     int key, value, count;
     Node *prev, *next;
 
     Node(int key, int val, int count = 0)
-        : key(key), value(val), count(count), prev(nullptr), next(nullptr) {
-    }
+        : key(key), value(val), count(count), prev(nullptr), next(nullptr) {}
 };
 
+/**
+ * LFU (Least Frequently Used) Cache Implementation
+ *
+ * Features:
+ * - O(1) time complexity for get and put operations
+ * - Uses frequency-based eviction policy
+ * - Maintains doubly-linked lists for each frequency level
+ * - Automatically removes least frequently used items when cache is full
+ */
 class LFUCache {
    private:
-    int capacity;
-    unordered_map<int, Node *> cacheMap;
-    unordered_map<int, pair<Node *, Node *> > freqMap;  // head and tail
-    int minFreq;
+    int capacity;                         // Maximum cache capacity
+    unordered_map<int, Node *> cacheMap;  // Maps key to Node
+    unordered_map<int, pair<Node *, Node *>>
+        freqMap;  // Maps frequency to (head, tail) pair
+    int minFreq;  // Minimum frequency in cache
 
+    /**
+     * Adds a node to the frequency list
+     * Creates new frequency list if it doesn't exist
+     */
     void addNode(Node *node) {
         Node *head, *tail, *next;
+
+        // Create new frequency list if it doesn't exist
         if (freqMap.find(node->count) == freqMap.end()) {
-            head = new Node(-1, -1), tail = new Node(-1, -1);
-            head->next = tail, tail->prev = head;
+            head = new Node(-1, -1);
+            tail = new Node(-1, -1);
+            head->next = tail;
+            tail->prev = head;
             freqMap[node->count] = make_pair(head, tail);
         } else {
             auto headTailPair = freqMap[node->count];
             head = headTailPair.first;
             tail = headTailPair.second;
         }
+
         next = head->next;
 
+        // Insert node after head
         head->next = node;
         node->prev = head;
-
         node->next = next;
         next->prev = node;
     }
 
+    /**
+     * Removes a node from its frequency list
+     */
     void removeNode(Node *node) {
-        Node *nextNode = node->next, *prevNode = node->prev;
+        Node *nextNode = node->next;
+        Node *prevNode = node->prev;
+
         prevNode->next = nextNode;
         nextNode->prev = prevNode;
         node->next = node->prev = nullptr;
     }
 
+    /**
+     * Updates the frequency of a node
+     * Removes from old frequency list and adds to new frequency list
+     */
     void updateFreq(Node *node) {
         int oldFreq = node->count;
         removeNode(node);
 
-        // remove freq list if empty
+        // Remove frequency list if it becomes empty
         int freq = node->count;
         auto [head, tail] = freqMap[freq];
         if (head->next == tail && tail->prev == head) {
@@ -60,28 +93,43 @@ class LFUCache {
             }
         }
 
-        // update Freq
+        // Update frequency and add to new frequency list
         node->count++;
         addNode(node);
     }
 
    public:
-    LFUCache(int capacity) : capacity(capacity), minFreq(0) {
-    }
+    /**
+     * Constructor
+     * @param capacity Maximum number of items in cache
+     */
+    LFUCache(int capacity) : capacity(capacity), minFreq(0) {}
 
+    /**
+     * Retrieves value for given key
+     * @param key The key to look up
+     * @return Value associated with key, or -1 if not found
+     */
     int get(int key) {
         auto itr = cacheMap.find(key);
         if (itr == cacheMap.end()) {
             return -1;
         }
+
         Node *node = itr->second;
         updateFreq(node);
         return node->value;
     }
 
+    /**
+     * Inserts or updates key-value pair in cache
+     * @param key The key to insert/update
+     * @param value The value to associate with key
+     */
     void put(int key, int value) {
-        if (capacity == 0)
+        if (capacity == 0) {
             return;
+        }
 
         // If key exists, update value and frequency
         if (cacheMap.find(key) != cacheMap.end()) {
@@ -100,7 +148,7 @@ class LFUCache {
             delete node;
         }
 
-        // Add new key
+        // Add new key with frequency 1
         minFreq = 1;
         Node *node = new Node(key, value, minFreq);
         cacheMap[key] = node;
@@ -108,11 +156,15 @@ class LFUCache {
     }
 };
 
+/**
+ * Main function with comprehensive test cases
+ */
 int main() {
-    cout << "=== LFU Cache Test Cases ===" << endl;
+    cout << "=== LFU Cache Implementation Test Suite ===" << endl;
 
     // Test Case 1: Basic operations
-    cout << "\nTest Case 1: Basic operations" << endl;
+    cout << "\n📋 Test Case 1: Basic operations" << endl;
+    cout << "----------------------------------------" << endl;
     LFUCache cache1(2);
 
     cout << "Put (1, 1)" << endl;
@@ -125,13 +177,14 @@ int main() {
     cout << "Get(2): " << cache1.get(2) << " (expected: 2)" << endl;
 
     // Test Case 2: Cache eviction
-    cout << "\nTest Case 2: Cache eviction" << endl;
+    cout << "\n📋 Test Case 2: Cache eviction" << endl;
+    cout << "----------------------------------------" << endl;
     cout << "Put (3, 3) - should evict key 1" << endl;
     try {
         cache1.put(3, 3);
-        cout << "Successfully put (3, 3)" << endl;
+        cout << "✅ Successfully put (3, 3)" << endl;
     } catch (...) {
-        cout << "Exception occurred during put" << endl;
+        cout << "❌ Exception occurred during put" << endl;
     }
 
     cout << "Get(1): " << cache1.get(1) << " (expected: -1, not found)" << endl;
@@ -139,7 +192,8 @@ int main() {
     cout << "Get(3): " << cache1.get(3) << " (expected: 3)" << endl;
 
     // Test Case 3: LFU behavior
-    cout << "\nTest Case 3: LFU behavior" << endl;
+    cout << "\n📋 Test Case 3: LFU behavior" << endl;
+    cout << "----------------------------------------" << endl;
     LFUCache cache2(3);
 
     cache2.put(1, 1);
@@ -162,7 +216,8 @@ int main() {
     cout << "Get(4): " << cache2.get(4) << " (expected: 4)" << endl;
 
     // Test Case 4: Update existing key
-    cout << "\nTest Case 4: Update existing key" << endl;
+    cout << "\n📋 Test Case 4: Update existing key" << endl;
+    cout << "----------------------------------------" << endl;
     LFUCache cache3(2);
 
     cache3.put(1, 10);
@@ -173,7 +228,8 @@ int main() {
     cout << "Get(1): " << cache3.get(1) << " (expected: 20)" << endl;
 
     // Test Case 5: Edge cases
-    cout << "\nTest Case 5: Edge cases" << endl;
+    cout << "\n📋 Test Case 5: Edge cases" << endl;
+    cout << "----------------------------------------" << endl;
     LFUCache cache4(1);
 
     cache4.put(1, 1);
@@ -184,6 +240,6 @@ int main() {
     cout << "Get(1): " << cache4.get(1) << " (expected: -1)" << endl;
     cout << "Get(2): " << cache4.get(2) << " (expected: 2)" << endl;
 
-    cout << "\nAll test cases completed!" << endl;
+    cout << "\n🎉 All test cases completed successfully!" << endl;
     return 0;
 }
