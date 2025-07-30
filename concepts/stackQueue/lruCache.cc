@@ -156,6 +156,136 @@ class LRUCache {
     }
 };
 
+// Alternative LRU Cache implementation using sentinel nodes
+class Node2 {
+   public:
+    int key, value;
+    Node2 *prev, *next;
+
+    Node2(int key, int val)
+        : key(key), value(val), prev(nullptr), next(nullptr) {}
+};
+
+class LRUCache2 {
+   private:
+    int capacity;
+    Node2 *head, *tail;  // Sentinel nodes
+    unordered_map<int, Node2 *> mp;
+
+    // Add node after head (most recently used position)
+    void addNode(Node2 *node) {
+        if (!node)
+            return;
+
+        Node2 *nextNode = this->head->next;
+        node->next = nextNode;
+        nextNode->prev = node;
+        this->head->next = node;
+        node->prev = this->head;
+    }
+
+    // Remove node from its current position
+    void removeNode(Node2 *node) {
+        if (!node)
+            return;
+
+        Node2 *prevNode = node->prev, *nextNode = node->next;
+        prevNode->next = node->next;
+        nextNode->prev = prevNode;
+        node->next = node->prev = nullptr;
+    }
+
+    // Move node to front (most recently used)
+    void moveNode(Node2 *node) {
+        if (!node)
+            return;
+
+        removeNode(node);
+        addNode(node);
+    }
+
+    // Remove least recently used node (before tail)
+    void removeLRU() {
+        if (this->tail->prev == this->head) {
+            return;  // No actual data nodes
+        }
+
+        Node2 *node = this->tail->prev;
+        removeNode(node);
+        this->mp.erase(node->key);
+        delete node;
+    }
+
+   public:
+    LRUCache2(int cap) {
+        this->capacity = cap;
+        this->mp.clear();
+
+        // Initialize sentinel nodes
+        this->head = new Node2(-1, -1);
+        this->tail = new Node2(-1, -1);
+        this->head->next = this->tail;
+        this->tail->prev = this->head;
+    }
+
+    ~LRUCache2() {
+        Node2 *current = head;
+        while (current) {
+            Node2 *next = current->next;
+            delete current;
+            current = next;
+        }
+    }
+
+    // Get value for key, return -1 if not found
+    int get(int key) {
+        auto itr = this->mp.find(key);
+        if (itr == mp.end()) {
+            return -1;
+        }
+
+        Node2 *node = itr->second;
+        moveNode(node);
+        return node->value;
+    }
+
+    // Put key-value pair into cache
+    void put(int key, int value) {
+        auto itr = mp.find(key);
+
+        if (itr != mp.end()) {
+            // Key exists, update value and move to front
+            Node2 *node = itr->second;
+            removeNode(node);
+            node->value = value;
+            addNode(node);
+            return;
+        }
+
+        // Key doesn't exist, check capacity
+        if (mp.size() >= this->capacity) {
+            removeLRU();
+        }
+
+        // Create and add new node
+        Node2 *node = new Node2(key, value);
+        addNode(node);
+        this->mp[key] = node;
+    }
+
+    // Print current cache state (for debugging)
+    void printCache() {
+        cout << "Cache state (size: " << this->mp.size() << "/" << capacity
+             << "): ";
+        Node2 *current = head;
+        while (current) {
+            cout << "(" << current->key << ":" << current->value << ") ";
+            current = current->next;
+        }
+        cout << endl;
+    }
+};
+
 int main() {
     cout << "=== LRU Cache Implementation Test ===" << endl;
 
