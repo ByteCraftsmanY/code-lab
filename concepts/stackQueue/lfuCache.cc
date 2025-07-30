@@ -1,9 +1,9 @@
 #include <iostream>
-#include<map>
+#include <unordered_map>
 using namespace std;
 
 class Node {
-public:
+   public:
     int key, value, count;
     Node *prev, *next;
 
@@ -13,10 +13,10 @@ public:
 };
 
 class LFUCache {
-private:
+   private:
     int capacity;
-    map<int, Node *> cacheMap;
-    map<int, pair<Node *, Node *> > freqMap; // head and tail
+    unordered_map<int, Node *> cacheMap;
+    unordered_map<int, pair<Node *, Node *> > freqMap;  // head and tail
     int minFreq;
 
     void addNode(Node *node) {
@@ -60,13 +60,12 @@ private:
             }
         }
 
-
         // update Freq
         node->count++;
         addNode(node);
     }
 
-public:
+   public:
     LFUCache(int capacity) : capacity(capacity), minFreq(0) {
     }
 
@@ -148,11 +147,11 @@ int main() {
     cache2.put(3, 3);
 
     cout << "Accessing key 1 multiple times..." << endl;
-    cache2.get(1); // freq = 2
-    cache2.get(1); // freq = 3
+    cache2.get(1);  // freq = 2
+    cache2.get(1);  // freq = 3
 
     cout << "Accessing key 2 once..." << endl;
-    cache2.get(2); // freq = 2
+    cache2.get(2);  // freq = 2
 
     cout << "Put (4, 4) - should evict key 3 (least frequently used)" << endl;
     cache2.put(4, 4);
