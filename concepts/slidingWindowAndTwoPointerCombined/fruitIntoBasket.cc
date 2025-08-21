@@ -4,6 +4,8 @@
 #include <vector>
 using namespace std;
 
+// https://leetcode.com/problems/fruit-into-baskets/description/
+
 /**
  * Find the maximum number of fruits that can be collected using at most 2
  * baskets
