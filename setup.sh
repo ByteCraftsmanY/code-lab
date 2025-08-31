@@ -15,13 +15,13 @@ mkdir -p cpp/bin
 
 # Create #input.txt files
 echo "📄 Creating input files..."
-touch java/#input.txt
-touch cpp/#input.txt
+touch java/bin/#input.txt
+touch cpp/bin/#input.txt
 
 # Create #output.txt files (if they don't exist)
 echo "📄 Creating output files..."
-touch java/#output.txt
-touch cpp/#output.txt
+touch java/bin/#output.txt
+touch cpp/bin/#output.txt
 
 # Set proper permissions for the script
 chmod +x setup.sh
