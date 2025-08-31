@@ -5,20 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "UserInput",
-            "request": "launch",
-            "mainClass": "UserInput",
-            "projectName": "code-lab_31eaed9e"
-        },
-        {
-            "type": "java",
-            "name": "HelloWorld",
-            "request": "launch",
-            "mainClass": "HelloWorld",
-            "projectName": "code-lab_31eaed9e"
-        },
-        {
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
