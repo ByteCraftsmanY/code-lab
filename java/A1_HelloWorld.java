@@ -28,7 +28,7 @@ import java.lang.*;
  * - If we make class public then fileName and className equality should be
  * mandatory
  */
-public class HelloWorld {
+public class A1_HelloWorld {
 
     /**
      * Main method - the entry point of the Java program.

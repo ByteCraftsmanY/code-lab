@@ -29,7 +29,7 @@ import java.util.*;
  * - useRadix() method for custom number base input
  * - Always close Scanner to free resources
  */
-public class UserInput {
+public class A3_UserInput {
 
     /**
      * Main method demonstrating user input operations including binary input.
