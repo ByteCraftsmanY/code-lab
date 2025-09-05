@@ -73,7 +73,7 @@ class Car2 extends EngineVehicle {
     }
 }
 
-public class A2_LSP {
+class A1_LSP {
     public static void main(String[] args) {
         System.out.println("=== LSP Violation Example ===");
 

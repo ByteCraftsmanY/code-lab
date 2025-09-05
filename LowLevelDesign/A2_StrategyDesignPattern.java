@@ -157,7 +157,7 @@ class HybridCar2 extends Vehicle2 {
     }
 }
 
-public class A3_StrategyDesignPattern {
+public class A2_StrategyDesignPattern {
     public static void main(String[] args) {
         System.out.println("=== STRATEGY DESIGN PATTERN DEMONSTRATION ===\n");
 
