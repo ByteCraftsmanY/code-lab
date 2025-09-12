@@ -1,0 +1,65 @@
+Rough Flow:
+    Entrance Gate -> Parking Spot -> Exit Gate
+     (Ticket)                         (Payment)
+         |                              |
+         |                              |
+                      Entry Gate
+                  |------||------|
+                  |Parking Spot|
+                  |------||------|
+                      Exit Gate
+
+Requirements:
+    How many entrances?
+        * One entrance
+        * It should be extensible
+    Different types of spots?
+        * Two-wheelers
+        * Four-wheelers
+        * It should be extensible
+    What are the payment strategies?
+        * Hourly Based Charge
+        * Mix
+    
+    Follow Ups:
+        Parking Spot Should be nearest to the entrance
+        Multiple Floors
+
+Objects:
+    Vehicle
+        * Vehicle Number
+        * Vehicle Type
+            Enum: TwoWheeler, FourWheeler
+    Ticket
+        * Entry Time
+        * Parking Spot
+    Entrance Gate
+        * Find Parking Space
+        * Update Parking Space
+        * Generate Ticket
+    Parking Spot
+        * Id
+        * isEmpty
+        * Vehicle
+        * Price
+        * Type of Vehicle
+    Exit Gate
+        * Cost Colculation
+        * Payment
+        * Update Parking Space
+
+
+Approach:
+    Top Down Approach
+        * Start with the entrance gate
+        * Ends with the exit gate
+    Bottom Up Approach (We are using this Approach)
+        * generate all the Objects
+        * integrate them with each other and then make parent
+            * Parking spot 
+            * Parking spot manager
+            * Parking strategy
+            * Vehicle
+            * Ticket
+            * Parking spot manager factory
+            * Entrance gate
