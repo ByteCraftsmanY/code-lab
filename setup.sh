@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # =============================================================================
-# C++ Code Lab Setup Script
+# C++ & Java Code Lab Setup Script
 # =============================================================================
 # This script sets up the necessary directory structure and files for the
-# C++ Code Lab project, including input/output files for testing.
+# C++ & Java Code Lab project, including input/output files for testing.
 # =============================================================================
 
 set -e  # Exit on any error
@@ -40,7 +40,7 @@ command_exists() {
 
 # Main setup function
 main() {
-    print_status "Setting up C++ Code Lab environment..."
+    print_status "Setting up C++ & Java Code Lab environment..."
     
     # Create bin directory
     print_status "Creating bin directory..."
@@ -73,10 +73,31 @@ main() {
     print_status "Checking for C++ compiler..."
     if command_exists /opt/homebrew/bin/g++-15; then
         print_success "Found g++ compiler: $(/opt/homebrew/bin/g++-15 --version | head -n1)"
+    elif command_exists g++; then
+        print_success "Found g++ compiler: $(g++ --version | head -n1)"
+    elif command_exists clang++; then
+        print_success "Found clang++ compiler: $(clang++ --version | head -n1)"
     else
         print_warning "No C++ compiler found. Please install g++"
         print_warning "On macOS: brew install gcc"
+        print_warning "On Ubuntu: sudo apt-get install g++"
         print_warning "and change the compiler version here and in the .vscode/settings.json file"
+    fi
+    
+    # Check for Java compiler
+    print_status "Checking for Java compiler..."
+    if command_exists javac; then
+        print_success "Found Java compiler: $(javac -version 2>&1)"
+        if command_exists java; then
+            print_success "Found Java runtime: $(java -version 2>&1 | head -n1)"
+        else
+            print_warning "Java runtime not found, but compiler is available"
+        fi
+    else
+        print_warning "No Java compiler found. Please install JDK"
+        print_warning "On macOS: brew install openjdk"
+        print_warning "On Ubuntu: sudo apt-get install openjdk-24-jdk"
+        print_warning "Or download from: https://www.oracle.com/in/java/technologies/downloads/"
     fi
     
     # Set up file permissions
@@ -88,9 +109,16 @@ main() {
     print_success "Setup completed successfully! 🎉"
     echo ""
     print_status "Next steps:"
+    echo ""
+    print_status "For C++:"
     echo "  1. Write your C++ code in any .cpp file"
     echo "  2. Compile with: g++ -std=c++23 -o output filename.cpp"
     echo "  3. Run with: ./output"
+    echo ""
+    print_status "For Java:"
+    echo "  1. Write your Java code in ./java/src/"
+    echo "  2. Compile with: javac -d ./java/bin ./java/src/*.java"
+    echo "  3. Run with: java -cp ./java/bin Main"
     echo ""
     print_status "Input/Output files are ready in ./bin/"
     print_status "Happy coding! 🚀"
