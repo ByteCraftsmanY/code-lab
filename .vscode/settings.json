@@ -112,6 +112,8 @@
     "editor.fontSize": 16,
     "editor.fontFamily": "Menlo",
     "editor.formatOnSave": true,
+    "terminal.integrated.fontFamily": "Monaco",
+    "terminal.integrated.fontSize": 13,
     "files.autoSave": "afterDelay",
     "window.zoomLevel": 0.5,
     "C_Cpp.default.cStandard": "c23",
@@ -125,7 +127,9 @@
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "code-runner.executorMap": {
         "c": "cd $dir && export mydir='/Users/magicpin/CPP/bin' && /opt/homebrew/bin/gcc-15 -std=c23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
-        "cpp": "cd $dir && export mydir='/Users/magicpin/CPP/bin' && /opt/homebrew/bin/g++-15 -std=c++23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
+        // "cpp": "cd $dir && export mydir='/Users/magicpin/CPP/bin' && /opt/homebrew/bin/g++-15 -std=c++23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
+        "cpp": "cd $dir && export mydir=$workspaceRoot/bin && /opt/homebrew/bin/g++-15 -std=c++23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
+        "java": "cd $dir && javac -d $workspaceRoot/bin $fileName && java -cp $workspaceRoot/bin $fileNameWithoutExt",
     },
     "[code-runner-output]": {
         "editor.fontSize": 14,
