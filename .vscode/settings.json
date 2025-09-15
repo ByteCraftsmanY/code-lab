@@ -125,7 +125,8 @@
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "code-runner.executorMap": {
         "c": "cd $dir && export mydir='/Users/magicpin/CPP/bin' && /opt/homebrew/bin/gcc-15 -std=c23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
-        "cpp": "cd $dir && export mydir='/Users/magicpin/CPP/bin' && /opt/homebrew/bin/g++-15 -std=c++23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
+        // "cpp": "cd $dir && export mydir='/Users/magicpin/CPP/bin' && /opt/homebrew/bin/g++-15 -std=c++23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
+        "cpp": "cd $dir && export mydir=$workspaceRoot/bin && /opt/homebrew/bin/g++-15 -std=c++23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
         "java": "cd $dir && javac -d ./bin $fileName && java -cp ./bin $fileNameWithoutExt",
     },
     "[code-runner-output]": {

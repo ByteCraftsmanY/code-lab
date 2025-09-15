@@ -1,45 +1,100 @@
 #!/bin/bash
 
-# Project Setup Script
-# This script creates the necessary folders and files for the code-lab project
+# =============================================================================
+# C++ Code Lab Setup Script
+# =============================================================================
+# This script sets up the necessary directory structure and files for the
+# C++ Code Lab project, including input/output files for testing.
+# =============================================================================
 
-echo "🚀 Setting up code-lab project..."
+set -e  # Exit on any error
 
-# Create bin folder inside java folder
-echo "📁 Creating bin folder in java directory..."
-mkdir -p java/bin
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
 
-# Create bin folder inside cpp folder  
-echo "📁 Creating bin folder in cpp directory..."
-mkdir -p cpp/bin
+# Function to print colored output
+print_status() {
+    echo -e "${BLUE}[INFO]${NC} $1"
+}
 
-# Create #input.txt files
-echo "📄 Creating input files..."
-touch java/bin/#input.txt
-touch cpp/bin/#input.txt
+print_success() {
+    echo -e "${GREEN}[SUCCESS]${NC} $1"
+}
 
-# Create #output.txt files (if they don't exist)
-echo "📄 Creating output files..."
-touch java/bin/#output.txt
-touch cpp/bin/#output.txt
+print_warning() {
+    echo -e "${YELLOW}[WARNING]${NC} $1"
+}
 
-# Set proper permissions for the script
-chmod +x setup.sh
+print_error() {
+    echo -e "${RED}[ERROR]${NC} $1"
+}
 
-echo "✅ Project setup completed successfully!"
-echo ""
-echo "📂 Project structure created:"
-echo "   ├── java/"
-echo "   │   ├── bin/"
-echo "   │   ├── #input.txt"
-echo "   │   └── #output.txt"
-echo "   └── cpp/"
-echo "       ├── bin/"
-echo "       ├── #input.txt"
-echo "       └── #output.txt"
-echo ""
-echo "🎯 You can now:"
-echo "   - Compile Java files: javac -d java/bin java/*.java"
-echo "   - Run Java programs: java -cp java/bin ClassName"
-echo "   - Compile C++ files: g++ -o cpp/bin/program cpp/program.cpp"
-echo "   - Use input/output files for testing"
+# Function to check if command exists
+command_exists() {
+    command -v "$1" >/dev/null 2>&1
+}
+
+# Main setup function
+main() {
+    print_status "Setting up C++ Code Lab environment..."
+    
+    # Create bin directory
+    print_status "Creating bin directory..."
+    if mkdir -p ./bin; then
+        print_success "Created ./bin directory"
+    else
+        print_error "Failed to create ./bin directory"
+        exit 1
+    fi
+    
+    # Create input file
+    print_status "Creating input file..."
+    if touch ./bin/'#input.txt'; then
+        print_success "Created ./bin/#input.txt"
+    else
+        print_error "Failed to create input file"
+        exit 1
+    fi
+    
+    # Create output file
+    print_status "Creating output file..."
+    if touch ./bin/'#output.txt'; then
+        print_success "Created ./bin/#output.txt"
+    else
+        print_error "Failed to create output file"
+        exit 1
+    fi
+    
+    # Check for C++ compiler
+    print_status "Checking for C++ compiler..."
+    if command_exists /opt/homebrew/bin/g++-15; then
+        print_success "Found g++ compiler: $(/opt/homebrew/bin/g++-15 --version | head -n1)"
+    else
+        print_warning "No C++ compiler found. Please install g++"
+        print_warning "On macOS: brew install gcc"
+        print_warning "and change the compiler version here and in the .vscode/settings.json file"
+    fi
+    
+    # Set up file permissions
+    print_status "Setting up file permissions..."
+    chmod 644 ./bin/'#input.txt'
+    chmod 644 ./bin/'#output.txt'
+    print_success "File permissions set"
+    
+    print_success "Setup completed successfully! 🎉"
+    echo ""
+    print_status "Next steps:"
+    echo "  1. Write your C++ code in any .cpp file"
+    echo "  2. Compile with: g++ -std=c++23 -o output filename.cpp"
+    echo "  3. Run with: ./output"
+    echo ""
+    print_status "Input/Output files are ready in ./bin/"
+    print_status "Happy coding! 🚀"
+}
+
+# Run main function
+main "$@"
