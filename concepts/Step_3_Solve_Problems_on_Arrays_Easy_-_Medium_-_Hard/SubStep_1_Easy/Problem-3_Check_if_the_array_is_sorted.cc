@@ -7,6 +7,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+bool isSorted(vector<int>& nums) {
+    for (int i = 1; i < nums.size(); i++) {
+        if (nums[i - 1] > nums[i]) return false;
+    }
+    return true;
+}
+
 int main() {
+    vector<int> nums = {2, 1, 23, 13, 21};
+    nums = {1, 2, 3, 4, 5};
+    cout << isSorted(nums) << endl;
     return 0;
 }
