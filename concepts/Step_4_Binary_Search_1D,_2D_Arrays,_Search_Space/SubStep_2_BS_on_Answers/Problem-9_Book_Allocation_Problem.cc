@@ -2,7 +2,7 @@
 // Step: Binary Search [1D, 2D Arrays, Search Space]
 // Sub Step: BS on Answers
 // Post Link: https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/
-// LeetCode Link: N/A
+// LeetCode Link: https://bit.ly/3MZQOct
 
 #include <bits/stdc++.h>
 using namespace std;

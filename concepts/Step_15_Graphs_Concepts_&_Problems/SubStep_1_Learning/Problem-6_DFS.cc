@@ -2,7 +2,7 @@
 // Step: Graphs [Concepts & Problems]
 // Sub Step: Learning
 // Post Link: https://takeuforward.org/data-structure/depth-first-search-dfs/
-// LeetCode Link: N/A
+// LeetCode Link: https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
 
 #include <bits/stdc++.h>
 using namespace std;

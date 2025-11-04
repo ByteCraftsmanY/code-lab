@@ -2,7 +2,7 @@
 // Step: Graphs [Concepts & Problems]
 // Sub Step: Learning
 // Post Link: https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/
-// LeetCode Link: N/A
+// LeetCode Link: https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 
 #include <bits/stdc++.h>
 using namespace std;
