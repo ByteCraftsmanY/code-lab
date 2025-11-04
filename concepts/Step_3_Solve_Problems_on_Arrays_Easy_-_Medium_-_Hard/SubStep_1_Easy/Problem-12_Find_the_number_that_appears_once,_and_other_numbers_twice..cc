@@ -7,6 +7,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int findEle(vector<int>& nums) {
+    int ele = 0;
+    for (int num : nums) ele ^= num;
+    return ele;
+}
+
 int main() {
+    vector<int> nums = {4, 1, 2, 1, 2};
+    cout << findEle(nums);
     return 0;
 }

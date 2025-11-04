@@ -7,6 +7,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int maxOccuranceOnce(vector<int>& nums) {
+    int maxOneFinal = 0, maxOneTemp = 0;
+    for (int num : nums) {
+        if (num != 1) {
+            maxOneTemp = 0;
+            continue;
+        }
+        maxOneTemp++;
+        maxOneFinal = max(maxOneFinal, maxOneTemp);
+    }
+    return maxOneFinal;
+}
+
 int main() {
+    vector<int> nums = {1, 0, 1, 1, 0, 1};
+    nums = {1, 1, 0, 1, 1, 1};
+    cout << maxOccuranceOnce(nums);
     return 0;
 }
