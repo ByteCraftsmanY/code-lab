@@ -131,12 +131,12 @@ class IphoneOvservable implements StockOvservable {
     }
 
     @Override
-    public int getStock(){
+    public int getStock() {
         return this.stock;
     }
 
     @Override
-    public void setStock(int quantity){
+    public void setStock(int quantity) {
         this.stock = quantity;
         this.notifySubscribers();
     }
