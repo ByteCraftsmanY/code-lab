@@ -15,3 +15,15 @@ While **Creational patterns** focus on making objects and **Behavioral patterns*
 | **Composite** | Treats individual objects and compositions of objects uniformly. | A File System (Files and Folders are both "items"). |
 | **Bridge** | Decouples an abstraction from its implementation. | A Remote Control (interface) vs. the TV (implementation). |
 | **Flyweight** | Shares common parts of state between multiple objects to save memory. | A forest in a game (sharing tree textures for 1,000 trees).
+
+### Summery 2
+
+**Adapter**: Connects incompatible things.
+
+**Decorator**: Adds "layers" of features to an object.
+
+**Proxy**: Controls access (Security/Lazy Loading).
+
+**Composite**: Handles Tree structures (Files/Folders).
+
+**Facade**: Provides a simple "entry point" to a complex system.
