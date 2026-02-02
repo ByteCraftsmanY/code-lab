@@ -109,16 +109,17 @@
         "__config": "cpp",
         "__tree": "cpp"
     },
-    "editor.fontSize": 16,
-    "editor.fontFamily": "Menlo",
+    "editor.fontSize": 17,
+    "editor.fontFamily": "JetBrains Mono", //"Menlo",
     "editor.formatOnSave": true,
+    "editor.lineHeight": 1.5,
     "terminal.integrated.fontFamily": "Monaco",
     "terminal.integrated.fontSize": 13,
     "files.autoSave": "afterDelay",
-    "window.zoomLevel": 0.5,
-    "C_Cpp.default.cStandard": "c23",
-    "C_Cpp.default.cppStandard": "c++23",
-    "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-15",
+    "window.zoomLevel": 0.8,
+    // "C_Cpp.default.cStandard": "c23",
+    // "C_Cpp.default.cppStandard": "c++23",
+    // "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-15",
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
     "C_Cpp.default.intelliSenseMode": "gcc-x64",
     "C_Cpp.default.includePath": [
@@ -126,9 +127,8 @@
     ],
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "code-runner.executorMap": {
-        "c": "cd $dir && export mydir='/Users/magicpin/CPP/bin' && /opt/homebrew/bin/gcc-15 -std=c23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
-        // "cpp": "cd $dir && export mydir='/Users/magicpin/CPP/bin' && /opt/homebrew/bin/g++-15 -std=c++23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
-        "cpp": "cd $dir && export mydir=$workspaceRoot/bin && /opt/homebrew/bin/g++-15 -std=c++23 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'",
+        "c": "cd $dir && export mydir=$workspaceRoot/bin && gcc -std=c++11 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'", // for mac change path: /opt/homebrew/bin/g++-15
+        "cpp": "cd $dir && export mydir=$workspaceRoot/bin && g++ -std=c++11 $fileName -o $mydir/a.out && $mydir/a.out < $mydir/'#input.txt' > $mydir'/#output.txt'", // for mac change path: /opt/homebrew/bin/g++-15
         "java": "cd $dir && javac -d $workspaceRoot/bin $fileName && java -cp $workspaceRoot/bin $fileNameWithoutExt",
     },
     "[code-runner-output]": {
