@@ -203,5 +203,9 @@ int main() {
     // priority_queue < Node<int, int>*, vector<Node<int, int>*, decltype(compare)> pq;
     // cout << getCurrentTime() << endl;
     // cout << getCurrentTime(0) << endl;
+
+    int m, n;
+    cin >> n >> m;
+    cout << n << "\n" << m;
     return 0;
 }
