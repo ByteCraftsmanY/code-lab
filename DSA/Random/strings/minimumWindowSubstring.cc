@@ -81,3 +81,14 @@ int main() {
     }
     return 0;
 }
+/*
+
+3
+ADOBECODEBANC
+ABC
+A
+A
+A
+AA
+
+*/
