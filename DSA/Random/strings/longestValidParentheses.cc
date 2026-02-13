@@ -1,11 +1,14 @@
 // https://leetcode.com/problems/longest-valid-parentheses/description/
 
+// https://www.geeksforgeeks.org/dsa/length-of-the-longest-valid-substring/
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int solve(string s) {
     int maxLen = 0;
     stack<int> st;
+    st.push(-1);
     for (int i = 0; i < s.size(); i++) {
         if (s[i] == '(') {
             st.push(i);
@@ -57,8 +60,8 @@ int solve2(string s) {
 }
 
 int main() {
-    cout << solve2("()(())");
-    return 0;
+    // cout << solve2("()(())");
+    // return 0;
     int t;
     cin >> t;
     cin.ignore();
@@ -71,8 +74,11 @@ int main() {
 }
 
 /*
-)((((()()((()()))
+    5
+    ()
+    ())))
+    (()())
+    ((()()())
+    )((((()()((()()))
 
 */
-
-// )((((()()((()()))
