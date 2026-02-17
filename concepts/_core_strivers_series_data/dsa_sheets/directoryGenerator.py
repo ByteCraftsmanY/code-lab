@@ -4,7 +4,7 @@ import re
 
 data: dict = {}
 
-with open("concepts/_core_strivers_series_data/dsa_sheets/striver-sde-sheet.json") as f:
+with open("concepts/_core_strivers_series_data/dsa_sheets/striver-79-sheet.json") as f:
     data = json.loads(f.read())
 
 sheetData = data.get("sheetData")
@@ -17,21 +17,11 @@ def createDir(path: str):
         # print(f"alrady exists: {e}")
         pass
     except Exception as e:
-        print(f"Got Exception: {e}")
+        print(f"Got Exception: {e}: {path}")
 
 
-parent_dir = "DSA/Strivers_SDE_Sheet"
+parent_dir = "DSA/Strivers_79_Sheet"
 createDir(parent_dir)
-
-
-def get_difficulty(i: int) -> str:
-    if i == 0:
-        return "Easy"
-    elif i == 1:
-        return "Medium"
-    elif i == 2:
-        return "Hard"
-    return ""
 
 
 def sanitize_filename(filename):
@@ -48,12 +38,43 @@ def sanitize_filename(filename):
     return cleaned_filename
 
 
+def get_difficulty(i: int) -> str:
+    if i == 0:
+        return "Easy"
+    elif i == 1:
+        return "Medium"
+    elif i == 2:
+        return "Hard"
+    return ""
+
+
+def get_file_data(topic: str) -> str:
+    return f"""// {topic['title']}
+// Step: {topic['head_step_no']}
+// Difficulty: {get_difficulty(topic['difficulty'])}
+// Post Link: {topic['post_link']}
+// LeetCode Link: {topic['lc_link']}
+// GFG Link: {topic['gfg_link']}
+// CS Link: {topic.get('cs_link')}
+// YT Link: {topic.get('yt_link')}
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {{
+    return 0;
+}}
+"""
+
+
 for step in sheetData:
     head_step: str = step['head_step_no']
     head_step = head_step.replace(' ', '_')
+    head_step = sanitize_filename(head_step)
+
     sub_dir: str = f"Step_{step['step_no']}_{head_step}"
     createDir(f"{parent_dir}/{sub_dir}")
-    # continue
+
     topics = step["topics"]
     for i, topic in enumerate(topics):
         try:
@@ -62,20 +83,7 @@ for step in sheetData:
             problem = sanitize_filename(problem)
             filename: str = f"Problem_{i+1}_{problem}.cpp"
             with open(f"{parent_dir}/{sub_dir}/{filename}", "w", encoding='utf-8') as file:
-                data = f"""// {topic['title']}
-// Step: {topic['head_step_no']}
-// Difficulty: {get_difficulty(topic['difficulty'])}
-// Post Link: {topic['post_link']}
-// LeetCode Link: {topic['lc_link']}
-// GFG Link: {topic['gfg_link']}
-
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {{
-    return 0;
-}}
-                """
+                data = get_file_data(topic)
                 file.write(data)
         except Exception as e:
             print("got exception: ", e)
