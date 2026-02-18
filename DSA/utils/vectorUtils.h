@@ -1,8 +1,5 @@
-#ifndef UTILS_H
-#define UTILS_H
-
-#include <iostream>
-#include <vector>
+#ifndef VECTORUTILS_H
+#define VECTORUTILS_H
 
 // template <typename T>
 void printVector(std::vector<int> arr) {
